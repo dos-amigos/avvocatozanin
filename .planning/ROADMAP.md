@@ -29,7 +29,15 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. GSAP ScrollTrigger and Lenis smooth scroll initialize without errors, and motion stops when prefers-reduced-motion is set
   4. The sticky header transitions from transparent to solid on scroll, shows the clickable phone number, and the mega-dropdown for services opens on desktop
   5. The mobile full-screen menu overlay opens and closes with animation; skip-to-content and scroll-to-top are present
-**Plans**: TBD
+**Plans:** 1/5 plans executed
+
+Plans:
+- [x] 01-01-PLAN.md — Kirby 5 project scaffolding: composer.json, config.php, content seed files
+- [ ] 01-02-PLAN.md — CSS architecture: navy/gold design tokens, all CSS layers (parallel with 01-01)
+- [ ] 01-03-PLAN.md — Head/scripts snippets + JS modules (scroll.js, animations.js, main.js)
+- [ ] 01-04-PLAN.md — Navigation shell: header.php, footer.php, navigation.js (parallel with 01-03)
+- [ ] 01-05-PLAN.md — Homepage template wiring + human visual verification checkpoint
+
 **UI hint**: yes
 
 ### Phase 2: Core Pages
@@ -76,7 +84,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 1/5 | In Progress|  |
 | 2. Core Pages | 0/TBD | Not started | - |
 | 3. Supporting Pages | 0/TBD | Not started | - |
 | 4. SEO, Compliance & Launch | 0/TBD | Not started | - |
