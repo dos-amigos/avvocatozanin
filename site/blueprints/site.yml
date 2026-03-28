@@ -1,0 +1,33 @@
+title: Studio Legale Zanin
+
+tabs:
+  main:
+    label: Impostazioni
+    sections:
+      info:
+        type: fields
+        fields:
+          site_description:
+            type: textarea
+            label: Descrizione studio
+          email:
+            type: email
+            label: Email
+          phone:
+            type: text
+            label: Telefono
+          fax:
+            type: text
+            label: Fax
+          pec:
+            type: text
+            label: PEC
+          address:
+            type: text
+            label: Indirizzo
+          city:
+            type: text
+            label: Città
+          piva:
+            type: text
+            label: P.IVA

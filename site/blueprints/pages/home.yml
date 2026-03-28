@@ -1,0 +1,15 @@
+title: Home
+
+fields:
+  hero_title:
+    type: text
+    label: Titolo Hero
+  hero_subtitle:
+    type: textarea
+    label: Sottotitolo Hero
+  meta_title:
+    type: text
+    label: Meta Title
+  meta_description:
+    type: textarea
+    label: Meta Description
