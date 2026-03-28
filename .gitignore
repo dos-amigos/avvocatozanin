@@ -1,0 +1,35 @@
+# Composer dependencies (installed via composer install)
+vendor/
+kirby/
+site/plugins/
+
+# Environment files
+.env
+.env.local
+
+# Kirby runtime caches and media
+site/cache/
+media/
+.cache/
+
+# Panel accounts (sensitive)
+site/accounts/
+
+# Thumbnails (regenerated on demand)
+site/thumbs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
