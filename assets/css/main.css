@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Main CSS — Layer declaration and @import orchestration
+   The @layer declaration MUST come before any @import statements.
+   ========================================================================== */
+
+/* Declare layer order explicitly — this controls cascade priority */
+@layer reset, base, components, layout, utilities;
+
+/* Design tokens — UNLAYERED (highest priority, intentional) */
+@import url('variables.css');
+
+/* Reset — Josh Comeau reset */
+@import url('reset.css') layer(reset);
+
+/* Base — Element-level defaults */
+@import url('base.css') layer(base);
+
+/* Components */
+@import url('components/buttons.css') layer(components);
+@import url('components/cards.css') layer(components);
+@import url('components/forms.css') layer(components);
+@import url('components/breadcrumb.css') layer(components);
+
+/* Layout */
+@import url('layout/global.css') layer(layout);
+@import url('layout/header.css') layer(layout);
+@import url('layout/footer.css') layer(layout);
+
+/* Utilities */
+@import url('utilities.css') layer(utilities);
