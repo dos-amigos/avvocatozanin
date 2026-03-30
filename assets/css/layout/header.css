@@ -1,1 +1,489 @@
-/* Header layout — populated in Plan 04 */
+/* ==========================================================================
+   Header — Sticky header, mega-dropdown, and mobile menu
+   All styles in @layer layout for proper cascade ordering.
+   ========================================================================== */
+
+@layer layout {
+
+  /* ==========================================================================
+     Topbar — Contact info & social links (desktop only, near top of page)
+     ========================================================================== */
+
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--topbar-height);
+    z-index: 1002;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: none;
+  }
+
+  @media (min-width: 1280px) {
+    .topbar {
+      display: block;
+    }
+  }
+
+  .topbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .topbar__contact {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+  }
+
+  .topbar__contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: var(--font-body);
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .topbar__contact-item:hover {
+    color: var(--color-white);
+  }
+
+  .topbar__icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .topbar__social {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .topbar__social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out),
+                transform var(--duration-fast) var(--ease-out);
+  }
+
+  .topbar__social-link:hover {
+    color: var(--color-white);
+    transform: translateY(-2px);
+  }
+
+  .topbar__social-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* ==========================================================================
+     Header Base
+     Starts transparent over hero, becomes solid white on scroll.
+     ========================================================================== */
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background: transparent;
+    z-index: 1000;
+    transition: transform var(--duration-normal) var(--ease-out),
+                background var(--duration-normal) var(--ease-out),
+                box-shadow var(--duration-normal) var(--ease-out);
+  }
+
+  .header--hidden {
+    transform: translateY(-100%);
+  }
+
+  .header--scrolled {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  /* ==========================================================================
+     Logo
+     ========================================================================== */
+
+  .header__logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .header__logo:hover {
+    opacity: 0.8;
+  }
+
+  .header__logo-img {
+    height: 48px;
+    width: auto;
+    display: block;
+    /* Default (over hero): make logo white via CSS filter */
+    filter: brightness(0) invert(1);
+    transition: filter var(--duration-normal) var(--ease-out);
+  }
+
+  /* Scrolled (white bg): show original colors */
+  .header--scrolled .header__logo-img {
+    filter: none;
+  }
+
+  /* ==========================================================================
+     Desktop Navigation
+     ========================================================================== */
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__menu {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header__menu-item {
+    position: relative;
+  }
+
+  .header__link {
+    display: inline-flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-small);
+    letter-spacing: 0.03em;
+    padding: var(--space-2) var(--space-4);
+    transition: color var(--duration-fast) var(--ease-out);
+    position: relative;
+  }
+
+  /* Elegant underline hover */
+  .header__link::after {
+    content: '';
+    position: absolute;
+    left: var(--space-4);
+    right: var(--space-4);
+    bottom: 0;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform var(--duration-normal) var(--ease-out);
+  }
+
+  .header__link:hover::after,
+  .header__link--active::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  .header__link:hover,
+  .header__link--active {
+    color: var(--color-white);
+  }
+
+  /* When scrolled, links turn dark */
+  .header--scrolled .header__link {
+    color: var(--color-gray-600);
+  }
+
+  .header--scrolled .header__link:hover,
+  .header--scrolled .header__link--active {
+    color: var(--color-gray-900);
+  }
+
+  .header__link--dropdown {
+    background: none;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    gap: var(--space-1);
+    font-family: var(--font-body);
+  }
+
+  .header__dropdown-icon {
+    width: 14px;
+    height: 14px;
+    transition: transform var(--duration-fast);
+  }
+
+  .header__link--dropdown[aria-expanded="true"] .header__dropdown-icon {
+    transform: rotate(180deg);
+  }
+
+  /* ==========================================================================
+     CTA Button in Header
+     ========================================================================== */
+
+  .header__cta {
+    display: none;
+    font-size: var(--fs-small);
+    padding: var(--space-2) var(--space-5);
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    color: var(--color-white);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: all var(--duration-normal) var(--ease-out);
+  }
+
+  .header__cta:hover {
+    background: var(--color-white);
+    color: var(--color-gray-900);
+    border-color: var(--color-white);
+  }
+
+  .header--scrolled .header__cta {
+    border-color: var(--color-gray-900);
+    color: var(--color-gray-900);
+    background: transparent;
+  }
+
+  .header--scrolled .header__cta:hover {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-white);
+  }
+
+  /* ==========================================================================
+     Mega Dropdown
+     ========================================================================== */
+
+  .mega-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding: var(--space-7) 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity var(--duration-normal) var(--ease-out),
+                visibility var(--duration-normal) var(--ease-out),
+                transform var(--duration-normal) var(--ease-out);
+  }
+
+  /* Position the mega-dropdown relative to the viewport, not the menu item */
+  .header__menu-item--has-dropdown {
+    position: static;
+  }
+
+  .mega-dropdown[aria-hidden="false"] {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mega-dropdown__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+  }
+
+  /* 2-column variant for Zanin's 4-item Servizi dropdown */
+  .mega-dropdown__grid--2col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1280px) {
+    .mega-dropdown__grid--2col {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 600px;
+    }
+  }
+
+  .mega-dropdown__item {
+    display: flex;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--color-white);
+    transition: background var(--duration-fast) var(--ease-out);
+  }
+
+  .mega-dropdown__item:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .mega-dropdown__icon {
+    width: 22px;
+    height: 22px;
+    color: rgba(255, 255, 255, 0.85);
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .mega-dropdown__title {
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-small);
+    display: block;
+    margin-bottom: 2px;
+    color: var(--color-white);
+  }
+
+  .mega-dropdown__description {
+    font-size: var(--fs-small);
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    line-height: var(--lh-normal);
+  }
+
+  /* ==========================================================================
+     Mobile Menu Toggle (Hamburger)
+     ========================================================================== */
+
+  .mobile-menu__toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: var(--space-2);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    position: relative;
+  }
+
+  .mobile-menu__bar {
+    display: block;
+    width: 22px;
+    height: 1.5px;
+    background: var(--color-white);
+    transition: transform var(--duration-normal) var(--ease-out),
+                opacity var(--duration-normal) var(--ease-out),
+                background var(--duration-normal) var(--ease-out);
+  }
+
+  .header--scrolled .mobile-menu__bar {
+    background: var(--color-gray-900);
+  }
+
+  /* Morphing to X when open */
+  .mobile-menu__toggle[aria-expanded="true"] .mobile-menu__bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .mobile-menu__toggle[aria-expanded="true"] .mobile-menu__bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu__toggle[aria-expanded="true"] .mobile-menu__bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Always white when menu is open (over navy overlay) */
+  .mobile-menu__toggle[aria-expanded="true"] .mobile-menu__bar {
+    background: var(--color-white);
+  }
+
+  /* ==========================================================================
+     Mobile Menu Overlay
+     ========================================================================== */
+
+  .mobile-menu {
+    position: fixed;
+    inset: 0;
+    background: var(--color-primary);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--duration-slow) var(--ease-out),
+                visibility var(--duration-slow) var(--ease-out);
+  }
+
+  .mobile-menu--open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .mobile-menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .mobile-menu__link {
+    color: var(--color-white);
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-medium);
+    text-decoration: none;
+    display: block;
+    padding: var(--space-3) 0;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .mobile-menu__link:hover {
+    opacity: 0.8;
+  }
+
+  .mobile-menu__link--cta {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-sm);
+    display: inline-block;
+    margin-top: var(--space-6);
+    font-size: var(--fs-h4);
+    font-family: var(--font-body);
+    font-weight: var(--fw-regular);
+    letter-spacing: 0.05em;
+  }
+
+  /* ==========================================================================
+     Responsive — Desktop (1280px+)
+     ========================================================================== */
+
+  @media (min-width: 1280px) {
+    .header__nav {
+      display: flex;
+    }
+
+    .header__cta {
+      display: inline-flex;
+    }
+
+    .mobile-menu__toggle {
+      display: none;
+    }
+  }
+
+} /* end @layer layout */
