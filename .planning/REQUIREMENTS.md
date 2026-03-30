@@ -78,12 +78,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Navigation
 
-- [ ] **NAV-01**: Header sticky con logo, nav links, telefono (trasparente→solid su scroll)
-- [ ] **NAV-02**: Mega-dropdown per servizi nel menu desktop
-- [ ] **NAV-03**: Mobile menu full-screen overlay con animazioni
-- [ ] **NAV-04**: Breadcrumb navigation semantica su pagine interne
-- [ ] **NAV-05**: Scroll-to-top button
-- [ ] **NAV-06**: Skip-to-content link per accessibilità
+- [x] **NAV-01**: Header sticky con logo, nav links, telefono (trasparente→solid su scroll)
+- [x] **NAV-02**: Mega-dropdown per servizi nel menu desktop
+- [x] **NAV-03**: Mobile menu full-screen overlay con animazioni
+- [x] **NAV-04**: Breadcrumb navigation semantica su pagine interne
+- [x] **NAV-05**: Scroll-to-top button
+- [x] **NAV-06**: Skip-to-content link per accessibilità
 
 ## v2 Requirements
 
@@ -130,12 +130,12 @@ Deferred to future release. Tracked but not in current roadmap.
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Complete |
 | FOUND-05 | Phase 1 | Pending |
-| NAV-01 | Phase 1 | Pending |
-| NAV-02 | Phase 1 | Pending |
-| NAV-03 | Phase 1 | Pending |
-| NAV-04 | Phase 1 | Pending |
-| NAV-05 | Phase 1 | Pending |
-| NAV-06 | Phase 1 | Pending |
+| NAV-01 | Phase 1 | Complete |
+| NAV-02 | Phase 1 | Complete |
+| NAV-03 | Phase 1 | Complete |
+| NAV-04 | Phase 1 | Complete |
+| NAV-05 | Phase 1 | Complete |
+| NAV-06 | Phase 1 | Complete |
 | HOME-01 | Phase 2 | Pending |
 | HOME-02 | Phase 2 | Pending |
 | HOME-03 | Phase 2 | Pending |
