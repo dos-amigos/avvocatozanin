@@ -20,23 +20,20 @@
   <?php if ($metaDesc): ?><meta property="og:description" content="<?= esc($metaDesc) ?>"><?php endif ?>
   <?php if ($ogImage): ?><meta property="og:image" content="<?= $ogImage->url() ?>"><?php endif ?>
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="<?= url('assets/img/favicon.png') ?>">
 
-  <!-- Preconnect hints -->
+  <!-- Fonts: Jost (headings) + Manrope (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Google Fonts: Cormorant Garamond + Plus Jakarta Sans -->
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-
-  <!-- Lenis CSS (CDN) -->
+  <!-- Lenis CSS -->
   <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.17/dist/lenis.css">
 
   <!-- Main stylesheet -->
   <?= css('assets/css/main.css') ?>
 
-  <!-- Page-specific CSS (conditional by template) -->
+  <!-- Page-specific CSS -->
   <?php
   $pageCss = [
     'home'        => 'assets/css/pages/homepage.css',

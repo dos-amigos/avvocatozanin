@@ -1,146 +1,49 @@
-/* ==========================================================================
-   Global Layout — Container, Section, Grid, Skip-Link, Scroll-Top
-   All styles wrapped in @layer layout for cascade control.
-   ========================================================================== */
-
 @layer layout {
-
-  /* --------------------------------------------------------------------------
-     Container
-     -------------------------------------------------------------------------- */
-
   .container {
-    max-width: var(--container-max);
+    max-width: var(--container);
     margin-inline: auto;
-    padding-inline: var(--container-padding);
+    padding-inline: 24px;
   }
 
-  /* --------------------------------------------------------------------------
-     Section
-     -------------------------------------------------------------------------- */
-
-  .section {
-    padding-block: var(--space-9);
-  }
-
-  .section--alt {
-    background: var(--color-bg-alt);
-  }
-
-  .section--dark {
-    background: var(--color-primary);
-    color: var(--color-white);
-  }
-
-  .section--full {
-    padding-block: 0;
-  }
-
-  /* --------------------------------------------------------------------------
-     Grid
-     -------------------------------------------------------------------------- */
-
-  .grid {
-    display: grid;
-    gap: var(--space-6);
-  }
-
-  .grid--2 {
-    grid-template-columns: 1fr;
-  }
-
-  .grid--3 {
-    grid-template-columns: 1fr;
-  }
-
-  .grid--4 {
-    grid-template-columns: 1fr;
-  }
-
-  /* Tablet (768px+) */
-  @media (min-width: 768px) {
-    .grid--2 {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .grid--3 {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .grid--4 {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  /* Desktop (1280px+) */
-  @media (min-width: 1280px) {
-    .grid--3 {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    .grid--4 {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  /* --------------------------------------------------------------------------
-     Skip-to-Content Link (Accessibility)
-     -------------------------------------------------------------------------- */
+  .section { padding: 80px 0; }
+  .section--sm { padding: 60px 0; }
+  .section--lg { padding: 120px 0; }
+  .section--dark { background: var(--bg-dark-2); color: var(--white); }
+  .section--light { background: var(--bg-light); }
+  .section--grey { background: var(--grey-50); }
 
   .skip-link {
     position: absolute;
-    top: -100%;
-    left: var(--space-4);
-    z-index: 9999;
-    padding: var(--space-2) var(--space-4);
-    background: var(--color-primary);
-    color: var(--color-white);
-    text-decoration: none;
-    border-radius: var(--radius-md);
-    transition: top var(--duration-fast);
+    top: -40px;
+    left: 0;
+    background: var(--primary);
+    color: var(--white);
+    padding: 8px 16px;
+    z-index: 10000;
+    font-size: 14px;
   }
-
-  .skip-link:focus {
-    top: var(--space-2);
-  }
-
-  /* --------------------------------------------------------------------------
-     Scroll-to-Top Button
-     -------------------------------------------------------------------------- */
+  .skip-link:focus { top: 0; }
 
   .scroll-top {
     position: fixed;
-    bottom: var(--space-6);
-    right: var(--space-6);
-    z-index: 100;
-    width: 48px;
-    height: 48px;
-    border-radius: var(--radius-full);
-    background: var(--color-primary);
-    color: var(--color-white);
+    bottom: 30px;
+    right: 30px;
+    width: 44px;
+    height: 44px;
+    background: var(--secondary);
+    color: var(--white);
     border: none;
-    cursor: pointer;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     opacity: 0;
-    pointer-events: none;
-    transition: opacity var(--duration-normal) var(--ease-out);
-    box-shadow: var(--shadow-md);
+    visibility: hidden;
+    transition: all var(--dur);
+    z-index: 900;
   }
-
-  .scroll-top:hover {
-    background: var(--color-primary-dark);
-  }
-
-  .scroll-top:focus-visible {
-    outline: 2px solid var(--color-primary);
-    outline-offset: 2px;
-  }
-
-  .scroll-top svg {
-    width: 20px;
-    height: 20px;
-  }
-
+  .scroll-top.visible { opacity: 1; visibility: visible; }
+  .scroll-top:hover { background: var(--primary); transform: translateY(-3px); }
+  .scroll-top svg { width: 20px; height: 20px; }
 }

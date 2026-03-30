@@ -1,160 +1,71 @@
-/* ==========================================================================
-   Footer Layout — 3-column responsive footer for Studio Legale Zanin
-   Layer: layout (imported via main.css)
-   ========================================================================== */
-
 @layer layout {
 
-  /* --- Footer Base --- */
   .footer {
-    background: var(--color-gray-900);
-    color: var(--color-gray-300);
-    padding-top: var(--space-9);
-    padding-bottom: var(--space-6);
+    background: var(--bg-dark-1); color: rgba(255,255,255,.5);
+    padding: 80px 0 0;
   }
 
-  /* --- Footer Grid (3 columns) --- */
   .footer__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-7);
+    display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.5fr; gap: 40px;
   }
-
-  /* Tablet: 1+2 layout */
-  @media (max-width: 1279px) {
-    .footer__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    /* About column spans full width on tablet */
-    .footer__column--about {
-      grid-column: span 2;
-    }
-  }
-
-  /* Mobile: stack */
-  @media (max-width: 767px) {
-    .footer__grid {
-      grid-template-columns: 1fr;
-      gap: var(--space-6);
-    }
-    .footer__column--about {
-      grid-column: span 1;
-    }
-  }
-
-  /* --- Footer Column Styles --- */
-  .footer__column--about {
-    grid-column: span 1;
-  }
+  @media (max-width: 991px) { .footer__grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 575px) { .footer__grid { grid-template-columns: 1fr; } }
 
   .footer__logo {
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: var(--space-3);
+    text-decoration: none; display: flex; align-items: baseline; gap: .3em;
+    margin-bottom: 20px;
+  }
+  .footer__logo strong {
+    font-family: var(--font-heading); font-size: 24px; font-weight: 600; color: var(--white);
+  }
+  .footer__logo span {
+    font-size: 9px; font-weight: 600; letter-spacing: .15em;
+    text-transform: uppercase; color: var(--secondary);
   }
 
-  .footer__logo-img {
-    height: 36px;
-    width: auto;
-    display: block;
-    filter: brightness(0) invert(1);
-  }
+  .footer__col--brand p { font-size: 14px; line-height: 1.7; margin-bottom: 20px; }
 
-  .footer__heading {
-    font-family: var(--font-display);
-    font-size: var(--fs-h4);
-    font-weight: var(--fw-semibold);
-    color: var(--color-white);
-    margin-bottom: var(--space-4);
-  }
+  .footer__social { display: flex; gap: 12px; }
+  .footer__social a { color: rgba(255,255,255,.3); transition: color var(--dur); }
+  .footer__social a:hover { color: var(--secondary); }
+  .footer__social svg { width: 18px; height: 18px; }
 
-  .footer__description {
-    font-size: var(--fs-small);
-    line-height: var(--lh-relaxed);
-    margin-bottom: var(--space-5);
+  .footer__col h5 {
+    font-family: var(--font-body); font-size: 15px; font-weight: 700;
+    color: var(--white); margin-bottom: 20px;
   }
+  .footer__col ul { list-style: none; padding: 0; margin: 0; }
+  .footer__col ul li { margin-bottom: 10px; }
+  .footer__col ul li a {
+    font-size: 14px; color: rgba(255,255,255,.4); transition: color var(--dur);
+  }
+  .footer__col ul li a:hover { color: var(--white); }
 
-  /* --- Footer Links --- */
-  .footer__links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
+  .footer__contact {
+    display: flex; gap: 12px; align-items: flex-start; margin-bottom: 16px;
   }
+  .footer__contact i {
+    width: 16px; height: 16px; color: var(--secondary); flex-shrink: 0;
+    margin-top: 3px; opacity: .7;
+  }
+  .footer__contact span,
+  .footer__contact a {
+    font-size: 14px; color: rgba(255,255,255,.5); line-height: 1.5;
+  }
+  .footer__contact a:hover { color: var(--white); }
 
-  .footer__link {
-    color: var(--color-gray-400);
-    text-decoration: none;
-    font-size: var(--fs-small);
-    transition: color var(--duration-fast);
+  /* Subfooter */
+  .subfooter {
+    margin-top: 60px; padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,.06);
   }
-
-  .footer__link:hover {
-    color: var(--color-white);
+  .subfooter__inner {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 12px;
   }
-
-  /* --- Footer Contacts --- */
-  .footer__contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3);
-  }
-
-  .footer__contact-item {
-    display: flex;
-    gap: var(--space-3);
-    align-items: flex-start;
-    font-size: var(--fs-small);
-  }
-
-  .footer__contact-icon {
-    width: 18px;
-    height: 18px;
-    color: var(--color-accent);
-    flex-shrink: 0;
-    margin-top: 2px;
-  }
-
-  /* --- Footer Social --- */
-  .footer__social {
-    display: flex;
-    gap: var(--space-3);
-  }
-
-  .footer__social-link {
-    color: var(--color-gray-400);
-    transition: color var(--duration-fast);
-  }
-
-  .footer__social-link:hover {
-    color: var(--color-white);
-  }
-
-  .footer__social-link svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  /* --- Footer Bottom --- */
-  .footer__bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: var(--space-6);
-    margin-top: var(--space-7);
-    border-top: 1px solid var(--color-gray-700);
-    flex-wrap: wrap;
-    gap: var(--space-4);
-  }
-
-  .footer__copyright {
-    font-size: var(--fs-small);
-    color: var(--color-gray-500);
-  }
+  .subfooter p { font-size: 12px; color: rgba(255,255,255,.25); }
+  .subfooter div { display: flex; gap: 20px; }
+  .subfooter div a { font-size: 12px; color: rgba(255,255,255,.25); transition: color var(--dur); }
+  .subfooter div a:hover { color: rgba(255,255,255,.5); }
 
 }

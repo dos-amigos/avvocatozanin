@@ -1,83 +1,10 @@
-/* ==========================================================================
-   Utilities — Helper classes
-   Wrapped in @layer utilities (highest authored-layer priority).
-   ========================================================================== */
-
 @layer utilities {
-  /* --- Screen reader only --- */
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-    border: 0;
-  }
-
-  /* --- Visually hidden (with focus variant) --- */
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-    border: 0;
-  }
-
-  .visually-hidden:focus,
-  .visually-hidden:focus-within {
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip-path: none;
-    white-space: normal;
-  }
-
-  /* --- Text alignment --- */
-  .text-center {
-    text-align: center;
-  }
-
-  .text-left {
-    text-align: left;
-  }
-
-  .text-right {
-    text-align: right;
-  }
-
-  /* --- Margin top --- */
-  .mt-4 {
-    margin-top: var(--space-4);
-  }
-
-  .mt-6 {
-    margin-top: var(--space-6);
-  }
-
-  .mt-8 {
-    margin-top: var(--space-8);
-  }
-
-  /* --- Margin bottom --- */
-  .mb-4 {
-    margin-bottom: var(--space-4);
-  }
-
-  .mb-6 {
-    margin-bottom: var(--space-6);
-  }
-
-  .mb-8 {
-    margin-bottom: var(--space-8);
-  }
+  .text-white { color: var(--white) !important; }
+  .text-white-50 { color: rgba(255,255,255,0.5) !important; }
+  .text-center { text-align: center; }
+  .fw-600 { font-weight: 600; }
+  .mb-0 { margin-bottom: 0 !important; }
+  .mb-10 { margin-bottom: 10px; }
+  .mb-20 { margin-bottom: 20px; }
+  .mb-30 { margin-bottom: 30px; }
 }

@@ -40,7 +40,8 @@ Un potenziale cliente che cerca un avvocato civilista a Este/Padova deve trovare
 - **Target SEO locale:** "avvocato Este", "avvocato civilista Padova", "studio legale Este", "avvocato divorzista Este"
 - **Media:** foto e video professionali da Unsplash e Pexels (temi: giustizia, studio legale, consulenza)
 - **Contenuti:** ispirati da siti di avvocati reali, riscritti completamente in ottica SEO
-- **Contatti:** dati placeholder realistici, il cliente li sostituirà
+- **Contatti reali:** Via G.B. Brunelli 12, 35042 Este (PD) — Tel/Fax: 0429.1960202
+- **Sito attuale:** avvocatozanin.it (in manutenzione) — questo progetto lo sostituisce
 
 ## Constraints
 
@@ -59,7 +60,7 @@ Un potenziale cliente che cerca un avvocato civilista a Este/Padova deve trovare
 | GSAP + Lenis per animazioni | Stack premium collaudato nel progetto di riferimento | — Pending |
 | 4 servizi principali per v1 | Copertura completa diritto civile, espandibile in futuro | — Pending |
 | Foto/video da stock (Unsplash/Pexels) | Qualità professionale, zero costi, sostituibili con foto reali | — Pending |
-| Dati contatto placeholder | Il cliente fornirà i dati reali, non blocca lo sviluppo | — Pending |
+| Dati contatto reali da sito esistente | Via G.B. Brunelli 12, Este — Tel 0429.1960202 | ✓ Good |
 
 ## Evolution
 

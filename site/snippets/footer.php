@@ -1,85 +1,63 @@
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer__grid">
-        <!-- Column 1: Logo + Description + Social -->
-        <div class="footer__column footer__column--about">
-          <a href="<?= $site->url() ?>" class="footer__logo" aria-label="Studio Legale Zanin — Home">
-            <img src="<?= url('assets/img/logo-studio-legale-zanin.png') ?>" alt="Studio Legale Zanin" class="footer__logo-img" width="160" height="45">
-          </a>
-          <p class="footer__description">
-            <?= $site->site_description() ?>
-          </p>
-          <div class="footer__social">
-            <a href="<?= $site->linkedin()->or('#') ?>" class="footer__social-link" aria-label="LinkedIn">
-              <i data-lucide="linkedin"></i>
-            </a>
-            <a href="<?= $site->facebook()->or('#') ?>" class="footer__social-link" aria-label="Facebook">
-              <i data-lucide="facebook"></i>
-            </a>
-          </div>
-        </div>
 
-        <!-- Column 2: Navigazione -->
-        <div class="footer__column">
-          <h3 class="footer__heading">Navigazione</h3>
-          <ul class="footer__links">
-            <li><a href="<?= url('chi-sono') ?>" class="footer__link">Chi Sono</a></li>
-            <li><a href="<?= url('servizi') ?>" class="footer__link">Servizi</a></li>
-            <li><a href="<?= url('come-lavoro') ?>" class="footer__link">Come Lavoro</a></li>
-            <li><a href="<?= url('contatti') ?>" class="footer__link">Contatti</a></li>
-            <li><a href="<?= url('privacy-policy') ?>" class="footer__link">Privacy Policy</a></li>
-            <li><a href="<?= url('cookie-policy') ?>" class="footer__link">Cookie Policy</a></li>
-          </ul>
-        </div>
-
-        <!-- Column 3: Contatti -->
-        <div class="footer__column footer__column--contact">
-          <h3 class="footer__heading">Contatti</h3>
-          <ul class="footer__contact-list">
-            <li class="footer__contact-item">
-              <i data-lucide="map-pin" class="footer__contact-icon"></i>
-              <span><?= $site->address() ?><br><?= $site->city() ?></span>
-            </li>
-            <li class="footer__contact-item">
-              <i data-lucide="phone" class="footer__contact-icon"></i>
-              <a href="tel:+39<?= Str::replace($site->phone(), ['.', ' '], '') ?>" class="footer__link"><?= $site->phone() ?></a>
-            </li>
-            <li class="footer__contact-item">
-              <i data-lucide="printer" class="footer__contact-icon"></i>
-              <span>Fax: <?= $site->fax() ?></span>
-            </li>
-            <li class="footer__contact-item">
-              <i data-lucide="mail" class="footer__contact-icon"></i>
-              <a href="mailto:<?= $site->email() ?>" class="footer__link"><?= $site->email() ?></a>
-            </li>
-            <li class="footer__contact-item">
-              <i data-lucide="mail-check" class="footer__contact-icon"></i>
-              <span>PEC: <?= $site->pec() ?></span>
-            </li>
-            <li class="footer__contact-item">
-              <i data-lucide="award" class="footer__contact-icon"></i>
-              <span>Iscritto all'Ordine degli Avvocati di Padova</span>
-            </li>
-          </ul>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__col footer__col--brand">
+        <a href="<?= $site->url() ?>" class="footer__logo"><strong>Regalis</strong><span>Studio Legale</span></a>
+        <p><?= $site->site_description() ?></p>
+        <div class="footer__social">
+          <a href="<?= $site->linkedin()->or('#') ?>" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="<?= $site->facebook()->or('#') ?>" aria-label="Facebook"><i data-lucide="facebook"></i></a>
         </div>
       </div>
-
-      <!-- Footer Bottom -->
-      <div class="footer__bottom">
-        <p class="footer__copyright">
-          &copy; <?= date('Y') ?> Avv. Sebastiano Zanin &mdash; P.IVA <?= $site->piva() ?>
-        </p>
-        <div class="footer__social">
-          <a href="<?= $site->linkedin()->or('#') ?>" class="footer__social-link" aria-label="LinkedIn">
-            <i data-lucide="linkedin"></i>
-          </a>
-          <a href="<?= $site->facebook()->or('#') ?>" class="footer__social-link" aria-label="Facebook">
-            <i data-lucide="facebook"></i>
-          </a>
+      <div class="footer__col">
+        <h5>Aree di Pratica</h5>
+        <ul>
+          <li><a href="<?= url('servizi/diritto-di-famiglia') ?>">Diritto di Famiglia</a></li>
+          <li><a href="<?= url('servizi/diritto-immobiliare') ?>">Diritto Immobiliare</a></li>
+          <li><a href="<?= url('servizi/risarcimento-danni') ?>">Risarcimento Danni</a></li>
+          <li><a href="<?= url('servizi/recupero-crediti') ?>">Recupero Crediti</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Link Utili</h5>
+        <ul>
+          <li><a href="<?= url('chi-sono') ?>">Chi Sono</a></li>
+          <li><a href="<?= url('come-lavoro') ?>">Come Lavoro</a></li>
+          <li><a href="<?= url('contatti') ?>">Contatti</a></li>
+          <li><a href="<?= url('privacy-policy') ?>">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Contatti</h5>
+        <div class="footer__contact">
+          <i data-lucide="map-pin"></i>
+          <span><?= $site->address() ?><br><?= $site->city() ?></span>
+        </div>
+        <div class="footer__contact">
+          <i data-lucide="phone"></i>
+          <a href="tel:+39<?= Str::replace($site->phone(), ['.', ' '], '') ?>"><?= $site->phone() ?></a>
+        </div>
+        <div class="footer__contact">
+          <i data-lucide="mail"></i>
+          <a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a>
+        </div>
+        <div class="footer__contact">
+          <i data-lucide="mail-check"></i>
+          <span>PEC: <?= $site->pec() ?></span>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+  <div class="subfooter">
+    <div class="container subfooter__inner">
+      <p>&copy; <?= date('Y') ?> Avv. Sebastiano Zanin &mdash; P.IVA <?= $site->piva() ?> &mdash; Ordine Avvocati Padova</p>
+      <div>
+        <a href="<?= url('privacy-policy') ?>">Privacy</a>
+        <a href="<?= url('cookie-policy') ?>">Cookie</a>
+      </div>
+    </div>
+  </div>
+</footer>
 
-  <!-- Scroll-to-top button -->
-  <button class="scroll-top" aria-label="Torna in cima"><i data-lucide="arrow-up"></i></button>
+<button class="scroll-top" id="scrolltop" aria-label="Torna in cima"><i data-lucide="arrow-up"></i></button>

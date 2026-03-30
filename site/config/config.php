@@ -16,13 +16,10 @@ return [
         ],
     ],
 
-    // Page cache (exclude contact form page)
+    // Page cache (disabled in dev — enable in production)
     'cache' => [
         'pages' => [
-            'active' => true,
-            'ignore' => function ($page) {
-                return $page->intendedTemplate()->name() === 'contatti';
-            }
+            'active' => false,
         ]
     ],
 
