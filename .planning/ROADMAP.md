@@ -50,7 +50,14 @@ Plans:
   3. The /servizi page shows a grid of four service cards linking to individual service pages
   4. Each of the four service pages (famiglia, immobiliare, danni, crediti) displays complete SEO content, a FAQ accordion, and a process steps section
   5. All hero images are sourced from Unsplash/Pexels with legal/justice themes (no gavels or American courtroom symbols)
-**Plans**: TBD
+**Plans:** 4 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Homepage GSAP scroll animations (home.js) + home.yml blueprint update
+- [ ] 02-02-PLAN.md — Service listing + detail templates, blueprints, CSS, JS infrastructure
+- [ ] 02-03-PLAN.md — Service content seeding: 4 legal service pages with Italian SEO copy
+- [ ] 02-04-PLAN.md — Visual verification checkpoint for all Phase 2 pages
+
 **UI hint**: yes
 
 ### Phase 3: Supporting Pages
@@ -85,6 +92,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/5 | In Progress|  |
-| 2. Core Pages | 0/TBD | Not started | - |
+| 2. Core Pages | 0/4 | Planned | - |
 | 3. Supporting Pages | 0/TBD | Not started | - |
 | 4. SEO, Compliance & Launch | 0/TBD | Not started | - |
