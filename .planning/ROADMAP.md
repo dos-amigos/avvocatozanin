@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — Kirby 5 project scaffolding: composer.json, config.php, content seed files
 - [x] 01-02-PLAN.md — CSS architecture: navy/gold design tokens, all CSS layers (parallel with 01-01)
-- [ ] 01-03-PLAN.md — Head/scripts snippets + JS modules (scroll.js, animations.js, main.js)
+- [x] 01-03-PLAN.md — Head/scripts snippets + JS modules (scroll.js, animations.js, main.js)
 - [x] 01-04-PLAN.md — Navigation shell: header.php, footer.php, navigation.js (parallel with 01-03)
 - [ ] 01-05-PLAN.md — Homepage template wiring + human visual verification checkpoint
 
