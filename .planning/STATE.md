@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 1 execution — Plan 01-01 complete, Plans 01-02 and 01-04 interrupted
-last_updated: "2026-03-28T12:23:54.519Z"
-last_activity: 2026-03-28
+stopped_at: Completed 01-02-PLAN.md (CSS Architecture)
+last_updated: "2026-03-30T09:18:46.353Z"
+last_activity: 2026-03-30
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 5
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 Phase: 01 (foundation) — EXECUTING
 Plan: 2 of 5
 Status: Ready to execute
-Last activity: 2026-03-28
+Last activity: 2026-03-30
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -53,6 +53,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 3 | 2 tasks | 12 files |
+| Phase 01-foundation P02 | 3min | 2 tasks | 12 files |
 
 ## Accumulated Context
 
@@ -67,6 +68,7 @@ Recent decisions affecting current work:
 - Init: LegalService JSON-LD authored manually as snippet — no plugin handles legal schema
 - [Phase 01-foundation]: kirby-uniform resolved to v5.7.0 (^5.6 specified) — compatible; gitignore added to exclude composer-installed dirs
 - [Phase 01-foundation]: PEC address placeholder pec@avvocatozanin.it — must be confirmed before Contatti/Privacy Policy pages
+- [Phase 01-foundation]: Navy #1a2744 / gold #b8960c palette applied as CSS custom properties; hardcoded rgba shadows updated to match
 
 ### Pending Todos
 
@@ -81,6 +83,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T12:23:54.512Z
-Stopped at: Phase 1 execution — Plan 01-01 complete, Plans 01-02 and 01-04 interrupted
-Resume file: .planning/phases/01-foundation/01-01-SUMMARY.md
+Last session: 2026-03-30T09:18:46.333Z
+Stopped at: Completed 01-02-PLAN.md (CSS Architecture)
+Resume file: None

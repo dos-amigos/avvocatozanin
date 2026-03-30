@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Foundation
 
-- [ ] **FOUND-01**: Kirby CMS 5.x project setup with composer, config, and environment files
-- [ ] **FOUND-02**: CSS architecture with design tokens (navy #1a2744 + gold #b8960c palette, Cormorant Garamond + Plus Jakarta Sans)
+- [x] **FOUND-01**: Kirby CMS 5.x project setup with composer, config, and environment files
+- [x] **FOUND-02**: CSS architecture with design tokens (navy #1a2744 + gold #b8960c palette, Cormorant Garamond + Plus Jakarta Sans)
 - [ ] **FOUND-03**: GSAP ScrollTrigger + Lenis smooth scroll with prefers-reduced-motion support
-- [ ] **FOUND-04**: Responsive mobile-first layout with breakpoints (375px, 768px, 1280px, 1440px)
+- [x] **FOUND-04**: Responsive mobile-first layout with breakpoints (375px, 768px, 1280px, 1440px)
 - [ ] **FOUND-05**: Shared snippets: header (sticky, transparent→solid), footer (4 colonne), head (meta), scripts
 
 ### Homepage
@@ -125,10 +125,10 @@ Deferred to future release. Tracked but not in current roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 | Complete |
+| FOUND-02 | Phase 1 | Complete |
 | FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Complete |
 | FOUND-05 | Phase 1 | Pending |
 | NAV-01 | Phase 1 | Pending |
 | NAV-02 | Phase 1 | Pending |
