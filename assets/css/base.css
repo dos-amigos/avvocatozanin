@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Base Styles — Element-level defaults
+   Uses design tokens from variables.css exclusively.
+   Wrapped in @layer base for cascade control.
+   ========================================================================== */
+
+@layer base {
+  /* --- Body --- */
+  body {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-regular);
+    color: var(--color-text);
+    line-height: var(--lh-normal);
+    background-color: var(--color-bg);
+  }
+
+  /* --- Headings ---
+     Cormorant Garamond supports weights 300-700.
+     Use 600 (semibold) for headings for elegant weight. */
+  h1 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-semibold);
+    line-height: var(--lh-tight);
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-semibold);
+    line-height: var(--lh-tight);
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-tight);
+  }
+
+  h4 {
+    font-family: var(--font-display);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-tight);
+  }
+
+  /* --- Links --- */
+  a {
+    color: var(--color-primary);
+    text-decoration-skip-ink: auto;
+  }
+
+  a:hover {
+    color: var(--color-primary-dark);
+  }
+
+  /* --- Selection --- */
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  /* --- Container --- */
+  .container {
+    max-width: var(--container-max);
+    margin-inline: auto;
+    padding-inline: var(--container-padding);
+  }
+
+  /* --- Section --- */
+  .section {
+    padding-block: var(--space-9);
+  }
+}

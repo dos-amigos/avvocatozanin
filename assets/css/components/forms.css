@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Forms — BEM Component
+   Block: .form
+   Elements: __field, __label, __input, __error
+   Modifiers: __input--error
+   ========================================================================== */
+
+@layer components {
+  /* --- Form container --- */
+  .form {
+    display: grid;
+    gap: var(--space-5);
+  }
+
+  /* --- Field group (label + input + error) --- */
+  .form__field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  /* --- Label --- */
+  .form__label {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-medium);
+    color: var(--color-text);
+  }
+
+  /* --- Input --- */
+  .form__input {
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--color-gray-300);
+    border-radius: var(--radius-md);
+    font-size: var(--fs-body);
+    color: var(--color-text);
+    background-color: var(--color-white);
+    transition: border-color var(--duration-fast) var(--ease-out);
+  }
+
+  .form__input:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(26, 39, 68, 0.15);
+  }
+
+  .form__input::placeholder {
+    color: var(--color-gray-400);
+  }
+
+  /* --- Input error state --- */
+  .form__input--error {
+    border-color: var(--color-accent);
+  }
+
+  .form__input--error:focus {
+    box-shadow: 0 0 0 3px rgba(184, 150, 12, 0.15);
+  }
+
+  /* --- Error message --- */
+  .form__error {
+    font-size: var(--fs-small);
+    color: var(--color-accent);
+  }
+}
