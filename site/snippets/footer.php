@@ -3,7 +3,7 @@
   <div class="container">
     <div class="footer__grid">
       <div class="footer__col footer__col--brand">
-        <a href="<?= $site->url() ?>" class="footer__logo"><strong>Regalis</strong><span>Studio Legale</span></a>
+        <a href="<?= $site->url() ?>" class="footer__logo"><strong>Zanin</strong><span>Studio Legale</span></a>
         <p><?= $site->site_description() ?></p>
         <div class="footer__social">
           <a href="<?= $site->linkedin()->or('#') ?>" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>

@@ -5,7 +5,7 @@
 <header class="header transparent" id="header">
   <div class="container header__inner">
     <a href="<?= $site->url() ?>" class="header__logo">
-      <strong>Regalis</strong><span>Studio Legale</span>
+      <strong>Zanin</strong><span>Studio Legale</span>
     </a>
 
     <nav class="header__nav" id="desktop-nav">
