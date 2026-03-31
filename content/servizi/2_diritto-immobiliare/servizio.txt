@@ -1,0 +1,131 @@
+Title: Diritto Immobiliare
+
+----
+
+Hero-title: Diritto Immobiliare
+
+----
+
+Hero-subtitle: Consulenza e assistenza legale per compravendite, locazioni, controversie condominiali e diritti reali a Este e Padova
+
+----
+
+Hero-image-url: https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80
+
+----
+
+Panoramica-body:
+
+Il mercato immobiliare italiano presenta complessita giuridiche che rendono indispensabile l assistenza di un avvocato immobiliare Este esperto nelle fasi piu delicate delle transazioni. Dalla verifica della regolarita dell immobile alla redazione del contratto preliminare, dalla gestione delle controversie condominiali alle azioni giudiziarie per la tutela dei diritti reali, lo Studio Legale Zanin offre un supporto legale completo nel settore immobiliare.
+
+L avvocato immobiliare Este Sebastiano Zanin assiste acquirenti, venditori, locatori e conduttori in tutte le operazioni di compravendita immobiliare nel territorio di Este, Padova e dei comuni limitrofi. La conoscenza del tessuto immobiliare locale e delle specifiche problematiche del Tribunale di Este permette di gestire le pratiche con efficienza e precisione.
+
+Le controversie condominiali rappresentano una delle casistiche piu frequenti in ambito immobiliare: impugnazione di delibere assembleari viziate, ripartizione delle spese condominiali, tutela delle parti comuni e mediazione tra condomini. Affianchiamo amministratori e singoli condivisi nella risoluzione di conflitti che, se non gestiti tempestivamente, possono degenerare in cause lunghe e costose.
+
+Le azioni di usucapione Padova e Este richiedono una documentazione accurata del possesso continuato e incontestato nel tempo. Il nostro studio gestisce l intero procedimento, dall analisi preliminare del possesso alla raccolta delle prove testimoniali e documentali, fino alla sentenza di accertamento. Completano la nostra offerta la due diligence immobiliare per gli acquisti piu rilevanti e le azioni per la tutela delle servitu e degli altri diritti reali.
+
+----
+
+Includes:
+
+-
+  icon: building
+  title: Compravendite Immobiliari
+  description: Assistenza nella redazione e revisione di contratti preliminari e definitivi, verifica delle visure catastali e ipotecarie, tutela dell acquirente e del venditore.
+-
+  icon: key
+  title: Locazioni e Sfratti
+  description: Redazione di contratti di locazione, gestione delle morosita e procedure di sfratto per finita locazione o morosita davanti al Tribunale di Este.
+-
+  icon: landmark
+  title: Controversie Condominiali
+  description: Impugnazione di delibere assembleari, ripartizione delle spese, tutela delle parti comuni e mediazione condominiale in ambito locale.
+-
+  icon: map
+  title: Usucapione e Diritti Reali
+  description: Azioni per il riconoscimento dell usucapione, costituzione e tutela di servitu, diritti di superficie, uso e abitazione.
+-
+  icon: file-check
+  title: Due Diligence Immobiliare
+  description: Verifica completa della situazione giuridica dell immobile prima dell acquisto: ipoteche, vincoli urbanistici, conformita catastale e regolarita degli impianti.
+
+----
+
+Process-steps:
+
+-
+  step: "01"
+  title: Analisi Documentale
+  description: Esaminiamo la documentazione immobiliare, le visure catastali e ipotecarie per identificare criticita e opportunita prima di procedere.
+-
+  step: "02"
+  title: Consulenza Strategica
+  description: Forniamo un parere legale dettagliato sulla situazione e definiamo la strategia operativa piu efficace per tutelare i vostri interessi.
+-
+  step: "03"
+  title: Azione Legale
+  description: Procediamo con la negoziazione, la redazione contrattuale o l avvio della causa presso il Tribunale di Este o Padova competente.
+-
+  step: "04"
+  title: Conclusione
+  description: Seguiamo la pratica fino alla definizione completa, assicurando la tutela dei vostri interessi immobiliari e la corretta formalizzazione degli accordi.
+
+----
+
+Faq:
+
+-
+  question: Cosa fare se il conduttore non paga l affitto?
+  answer: In caso di morosita, dopo la messa in mora formale, si puo procedere con lo sfratto per morosita. La procedura prevede un atto di intimazione di sfratto e citazione per la convalida presso il Tribunale di Este o Padova. I tempi variano in base al carico del tribunale.
+-
+  question: Quanto tempo serve per l usucapione di un immobile?
+  answer: L usucapione ordinaria richiede il possesso continuato e incontestato per 20 anni. L usucapione abbreviata si perfeziona in 10 anni in presenza di un titolo idoneo. E necessario dimostrare il possesso effettivo attraverso prove documentali e testimoniali.
+-
+  question: Come si impugna una delibera condominiale?
+  answer: La delibera condominiale puo essere impugnata entro 30 giorni dalla comunicazione al condomino assente o dalla data dell assemblea per i presenti. L impugnazione si propone con ricorso al Tribunale competente per territorio, che per Este e il Tribunale di Este.
+-
+  question: Quali verifiche fare prima di acquistare un immobile?
+  answer: E fondamentale effettuare visure catastali e ipotecarie, verificare la conformita urbanistica e catastale, controllare l assenza di ipoteche o pignoramenti, verificare la regolarita degli impianti e controllare l eventuale presenza di servitu non dichiarate.
+-
+  question: Serve un avvocato per la compravendita immobiliare?
+  answer: L assistenza legale nella compravendita immobiliare e fortemente consigliata per verificare la regolarita dell operazione, tutelare i propri diritti nel contratto preliminare e identificare eventuali criticita prima del rogito notarile.
+
+----
+
+Icon: home
+
+----
+
+Card-title: Diritto Immobiliare
+
+----
+
+Card-description: Compravendite, locazioni, condominio, usucapione e controversie immobiliari.
+
+----
+
+Cta-title: Hai una questione immobiliare?
+
+----
+
+Cta-description: Prenota una consulenza per analizzare la tua situazione con un esperto del settore.
+
+----
+
+Cta-button-text: Contattaci
+
+----
+
+Cta-button-url: contatti
+
+----
+
+Meta-title:
+
+----
+
+Meta-description:
+
+----
+
+Uuid: diritto-immobiliare

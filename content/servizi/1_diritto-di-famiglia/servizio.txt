@@ -1,0 +1,131 @@
+Title: Diritto di Famiglia
+
+----
+
+Hero-title: Diritto di Famiglia
+
+----
+
+Hero-subtitle: Assistenza legale qualificata per separazioni, divorzi, affidamento dei figli e successioni presso il Tribunale di Este e Padova
+
+----
+
+Hero-image-url: https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&q=80
+
+----
+
+Panoramica-body:
+
+Il diritto di famiglia rappresenta una delle aree piu delicate del diritto civile. Le questioni familiari coinvolgono la vita delle persone in momenti di grande vulnerabilita, richiedendo un avvocato capace di coniugare competenza tecnica e sensibilita umana. Lo Studio Legale Zanin offre assistenza specializzata per tutte le problematiche familiari, con un approccio orientato alla tutela degli interessi del cliente e, quando vi sono figli minori, alla loro protezione prioritaria.
+
+Il nostro studio segue le pratiche di separazione consensuale e giudiziale, divorzio e negoziazione assistita presso il Tribunale di Este e il Tribunale di Padova. L avvocato divorzio Este Sebastiano Zanin conosce le specificita del territorio e intrattiene rapporti consolidati con il foro locale, garantendo una gestione efficiente delle procedure.
+
+Le questioni di affidamento figli e collocamento dei minori richiedono una trattazione attenta che bilanci i diritti di entrambi i genitori con il superiore interesse del minore. Affianchiamo i clienti nella definizione di accordi equilibrati sull affidamento condiviso, sui tempi di permanenza con ciascun genitore e sul contributo al mantenimento. Quando necessario, rappresentiamo i nostri assistiti nelle cause contenziose avanti al Tribunale ordinario e al Giudice Tutelare.
+
+Le successioni e i testamenti completano la nostra offerta in ambito familiare: pianificazione successoria, accettazione e rinuncia all eredita, divisione ereditaria tra coeredi e impugnazione di testamenti. La separazione consensuale Padova e Este puo includere accordi patrimoniali che riguardano immobili, aziende e patrimoni articolati: il nostro studio assiste i clienti nella redazione di accordi completi e giuridicamente solidi.
+
+----
+
+Includes:
+
+-
+  icon: heart
+  title: Separazioni e Divorzi
+  description: Assistenza nella gestione di separazioni consensuali e giudiziali, procedure di divorzio e negoziazione assistita davanti al Tribunale di Este e Padova.
+-
+  icon: users
+  title: Affidamento Figli
+  description: Tutela dei diritti dei minori, definizione di affidamento condiviso o esclusivo, regolamentazione delle visite e del diritto di frequentazione.
+-
+  icon: banknote
+  title: Assegno di Mantenimento
+  description: Determinazione e revisione degli assegni di mantenimento per coniuge e figli, anche in sede di modifica delle condizioni gia stabilite.
+-
+  icon: scroll-text
+  title: Successioni e Testamenti
+  description: Assistenza nella pianificazione successoria, impugnazione di testamenti, divisione ereditaria e accettazione con beneficio di inventario.
+-
+  icon: home
+  title: Regime Patrimoniale
+  description: Consulenza su comunione e separazione dei beni, convenzioni matrimoniali e divisione del patrimonio coniugale.
+
+----
+
+Process-steps:
+
+-
+  step: "01"
+  title: Consulenza Iniziale
+  description: Ascoltiamo la vostra situazione familiare e analizziamo la documentazione per individuare la strategia piu adatta al vostro caso.
+-
+  step: "02"
+  title: Valutazione e Strategia
+  description: Definiamo il percorso legale piu indicato, valutando le possibilita di composizione stragiudiziale prima di ricorrere al contenzioso.
+-
+  step: "03"
+  title: Negoziazione o Contenzioso
+  description: Avviamo la trattativa con la controparte o procediamo in sede giudiziale presso il Tribunale di Este o il Tribunale di Padova.
+-
+  step: "04"
+  title: Risoluzione
+  description: Accompagniamo il cliente fino alla definizione della controversia e alla formalizzazione degli accordi o della sentenza del tribunale.
+
+----
+
+Faq:
+
+-
+  question: Quanto tempo dura una separazione consensuale?
+  answer: Una separazione consensuale con negoziazione assistita puo concludersi in poche settimane. La procedura giudiziale richiede generalmente 2-4 mesi presso il Tribunale di Este o Padova, salvo complicazioni legate al patrimonio o ai figli.
+-
+  question: Qual e la differenza tra separazione e divorzio?
+  answer: La separazione e il primo passo che interrompe la convivenza coniugale senza sciogliere il matrimonio. Il divorzio scioglie definitivamente il vincolo matrimoniale e puo essere richiesto dopo almeno 6 mesi dalla separazione consensuale o 12 mesi dalla separazione giudiziale.
+-
+  question: Come funziona l affidamento condiviso dei figli?
+  answer: L affidamento condiviso e la regola generale prevista dalla legge. Entrambi i genitori mantengono la responsabilita genitoriale e partecipano alle decisioni importanti per i figli. Il collocamento prevalente viene stabilito considerando l interesse del minore e le concrete possibilita di ciascun genitore.
+-
+  question: Quanto costa un avvocato per il divorzio a Este?
+  answer: I costi variano in base alla complessita della procedura, alla presenza di figli e all entita del patrimonio da dividere. Offriamo un primo colloquio conoscitivo per valutare la situazione e fornire un preventivo chiaro e trasparente.
+-
+  question: Si puo modificare l assegno di mantenimento?
+  answer: Si, l assegno di mantenimento puo essere modificato quando intervengono cambiamenti significativi nelle condizioni economiche o personali di uno dei coniugi. La modifica si ottiene presentando istanza al tribunale competente o con accordo tra le parti.
+
+----
+
+Icon: users
+
+----
+
+Card-title: Diritto di Famiglia
+
+----
+
+Card-description: Separazioni, divorzi, affidamento figli, successioni e tutela dei diritti familiari.
+
+----
+
+Cta-title: Hai una questione familiare da risolvere?
+
+----
+
+Cta-description: Prenota una prima consulenza per analizzare la tua situazione con riservatezza e professionalita.
+
+----
+
+Cta-button-text: Contattaci
+
+----
+
+Cta-button-url: contatti
+
+----
+
+Meta-title:
+
+----
+
+Meta-description:
+
+----
+
+Uuid: diritto-di-famiglia
