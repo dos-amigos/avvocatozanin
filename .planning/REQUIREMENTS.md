@@ -37,10 +37,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Trust & About
 
-- [ ] **TRUST-01**: Chi Sono page con bio professionale, esperienza, valori, giurisdizione
-- [ ] **TRUST-02**: Come Lavoro page con processo legale (consulenza → mandato → causa → risultato)
-- [ ] **TRUST-03**: Iscrizione Ordine Avvocati di Padova visibile (footer + chi-sono)
-- [ ] **TRUST-04**: Giurisdizione esplicita: "Opero presso il Tribunale di Este e Padova"
+- [x] **TRUST-01**: Chi Sono page con bio professionale, esperienza, valori, giurisdizione
+- [x] **TRUST-02**: Come Lavoro page con processo legale (consulenza → mandato → causa → risultato)
+- [x] **TRUST-03**: Iscrizione Ordine Avvocati di Padova visibile (footer + chi-sono)
+- [x] **TRUST-04**: Giurisdizione esplicita: "Opero presso il Tribunale di Este e Padova"
 
 ### Contact
 
@@ -151,10 +151,10 @@ Deferred to future release. Tracked but not in current roadmap.
 | SERV-07 | Phase 2 | Complete |
 | SERV-08 | Phase 2 | Complete |
 | PERF-04 | Phase 2 | Complete |
-| TRUST-01 | Phase 3 | Pending |
-| TRUST-02 | Phase 3 | Pending |
-| TRUST-03 | Phase 3 | Pending |
-| TRUST-04 | Phase 3 | Pending |
+| TRUST-01 | Phase 3 | Complete |
+| TRUST-02 | Phase 3 | Complete |
+| TRUST-03 | Phase 3 | Complete |
+| TRUST-04 | Phase 3 | Complete |
 | CONT-01 | Phase 3 | Pending |
 | CONT-02 | Phase 3 | Pending |
 | CONT-03 | Phase 3 | Pending |

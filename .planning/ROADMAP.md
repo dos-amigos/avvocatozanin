@@ -69,11 +69,11 @@ Plans:
   2. The Come Lavoro page shows a step-by-step legal process (consulenza → mandato → causa → risultato)
   3. The Contatti page form submits successfully, honeypot spam protection is active, Google Maps embeds the correct address, and the PEC address and clickable phone number are visible
   4. Page cache is active for all pages except /contatti; all images use lazy loading; thumbnail presets are configured for hero, card, and thumb sizes
-**Plans:** 3 plans
+**Plans:** 2/3 plans executed
 
 Plans:
-- [ ] 03-01-PLAN.md — Chi Sono + Come Lavoro trust pages (templates, blueprints, content, CSS)
-- [ ] 03-02-PLAN.md — Contatti page with form, honeypot, Maps, contact info
+- [x] 03-01-PLAN.md — Chi Sono + Come Lavoro trust pages (templates, blueprints, content, CSS)
+- [x] 03-02-PLAN.md — Contatti page with form, honeypot, Maps, contact info
 - [ ] 03-03-PLAN.md — Performance layer (cache, lazy loading, thumb audit) + visual verification
 
 **UI hint**: yes
@@ -99,5 +99,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/5 | In Progress|  |
 | 2. Core Pages | 3/4 | In Progress|  |
-| 3. Supporting Pages | 0/3 | Not started | - |
+| 3. Supporting Pages | 2/3 | In Progress|  |
 | 4. SEO, Compliance & Launch | 0/TBD | Not started | - |
