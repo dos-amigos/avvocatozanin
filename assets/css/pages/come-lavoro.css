@@ -101,27 +101,7 @@
     padding-left: 80px;
   }
 
-  /* Vertical connecting line — centered on markers (44px from left edge) */
-  .cl-timeline::before {
-    content: "";
-    position: absolute;
-    left: 44px;
-    top: 24px;
-    bottom: 24px;
-    width: 2px;
-    background: var(--grey-200, #e5e7eb);
-    transform-origin: top;
-    transform: scaleY(var(--line-scale, 1));
-  }
-
-  @media (max-width: 575px) {
-    .cl-timeline {
-      padding-left: 56px;
-    }
-    .cl-timeline::before {
-      left: 30px;
-    }
-  }
+  /* No ::before line on timeline — line is on each marker instead */
 
   .cl-timeline__step {
     position: relative;
@@ -129,6 +109,17 @@
     gap: 1.5rem;
     padding-bottom: 3rem;
     align-items: flex-start;
+  }
+
+  /* Vertical line between markers — on each step except last */
+  .cl-timeline__step:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: calc(-60px + 23px);
+    top: 48px;
+    bottom: 0;
+    width: 2px;
+    background: var(--grey-200, #e5e7eb);
   }
 
   .cl-timeline__step:last-child {
@@ -152,6 +143,13 @@
   }
 
   @media (max-width: 575px) {
+    .cl-timeline {
+      padding-left: 56px;
+    }
+    .cl-timeline__step:not(:last-child)::before {
+      left: calc(-44px + 17px);
+      top: 36px;
+    }
     .cl-timeline__marker {
       left: -44px;
       width: 36px;

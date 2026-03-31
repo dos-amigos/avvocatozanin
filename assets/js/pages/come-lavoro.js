@@ -27,24 +27,6 @@
     });
   }
 
-  /* Vertical line grows from top to bottom */
-  var line = document.querySelector('.cl-timeline::before');
-  var timeline = document.querySelector('.cl-timeline');
-  if (timeline) {
-    gsap.fromTo(timeline,
-      { '--line-scale': 0 },
-      {
-        '--line-scale': 1,
-        duration: 1.2,
-        ease: 'power2.out',
-        scrollTrigger: {
-          trigger: '.cl-timeline',
-          start: 'top 80%',
-          once: true
-        }
-      }
-    );
-  }
 
   /* Editorial intro fade up */
   var editorial = document.querySelector('.cl-editorial');
