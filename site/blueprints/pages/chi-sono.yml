@@ -1,0 +1,100 @@
+title: Chi Sono
+
+tabs:
+  hero:
+    label: Hero
+    icon: image
+    fields:
+      hero_title:
+        label: Titolo Hero
+        type: text
+        required: true
+        default: Chi Sono
+      hero_subtitle:
+        label: Sottotitolo Hero
+        type: textarea
+        size: small
+      hero_image_url:
+        label: URL Immagine Hero
+        type: url
+        help: "URL Unsplash del ritratto (es. https://images.unsplash.com/...?w=1920&q=80)"
+
+  contenuto:
+    label: Contenuto
+    icon: text
+    fields:
+      bio_body:
+        label: Biografia
+        type: textarea
+        help: Testo biografico principale (supporta Markdown)
+      portrait_url:
+        label: URL Ritratto (sezione bio)
+        type: url
+        help: "URL immagine ritratto per la colonna sinistra della bio. Se vuoto, usa hero_image_url."
+      valori_title:
+        label: Titolo Sezione Valori
+        type: text
+        default: I Miei Valori
+      valori:
+        label: Valori
+        type: structure
+        help: "I valori professionali (3-4 consigliati)"
+        fields:
+          icon:
+            label: Icona
+            type: text
+            width: 1/4
+            placeholder: scale
+            help: "Nome icona da lucide.dev"
+          title:
+            label: Titolo
+            type: text
+            width: 1/4
+            required: true
+          description:
+            label: Descrizione
+            type: textarea
+            size: small
+            width: 2/4
+      ordine_numero:
+        label: Numero Iscrizione Ordine
+        type: text
+        help: "Numero iscrizione all'Ordine degli Avvocati di Padova"
+      giurisdizione:
+        label: Giurisdizione
+        type: textarea
+        size: small
+        help: "Descrizione della giurisdizione operativa"
+
+  cta:
+    label: CTA
+    icon: bolt
+    fields:
+      cta_title:
+        label: Titolo CTA
+        type: text
+        placeholder: Hai Bisogno di Assistenza Legale?
+      cta_description:
+        label: Descrizione CTA
+        type: textarea
+        size: small
+      cta_button_text:
+        label: Testo Pulsante
+        type: text
+        placeholder: Contattaci
+      cta_button_url:
+        label: URL Pulsante
+        type: text
+        help: "Slug della pagina (es. contatti)"
+
+  seo:
+    label: SEO
+    icon: search
+    fields:
+      meta_title:
+        label: Meta Title
+        type: text
+      meta_description:
+        label: Meta Description
+        type: textarea
+        size: small

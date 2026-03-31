@@ -1,0 +1,84 @@
+Title: Chi Sono
+
+----
+
+Hero_title: Avvocato Sebastiano Zanin
+
+----
+
+Hero_subtitle: Civilista con studio a Este. Assistenza legale in diritto di famiglia, immobiliare, risarcimento danni e recupero crediti.
+
+----
+
+Hero_image_url: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80
+
+----
+
+Portrait_url: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80
+
+----
+
+Bio_body: Sono Sebastiano Zanin, avvocato civilista con studio legale a Este (PD). Dopo la laurea in Giurisprudenza presso l'Universita degli Studi di Padova, ho conseguito l'abilitazione alla professione forense e mi sono iscritto all'Ordine degli Avvocati di Padova.
+
+Nel corso della mia attivita professionale ho maturato una solida esperienza nel diritto civile, con particolare attenzione al diritto di famiglia, al diritto immobiliare, al risarcimento del danno e al recupero crediti. Opero stabilmente presso il Tribunale di Este e il Tribunale di Padova, garantendo ai miei clienti una presenza costante nelle sedi giudiziarie del territorio.
+
+Il mio approccio si basa sulla comunicazione trasparente: ogni cliente viene informato in modo chiaro sull'evoluzione della propria situazione legale, sui tempi previsti e sulle opzioni disponibili. Credo che un rapporto di fiducia reciproca sia il fondamento di un'assistenza legale efficace.
+
+Opero sia in sede stragiudiziale, privilegiando la composizione bonaria delle controversie quando possibile, sia in sede giudiziale quando la tutela dei diritti del cliente lo richiede. La mia priorita e sempre la soluzione piu adeguata agli interessi concreti di chi si affida alla mia assistenza.
+
+----
+
+Ordine_numero: (da confermare)
+
+----
+
+Giurisdizione: Opero presso il Tribunale di Este e il Tribunale di Padova, assistendo clienti in tutto il Veneto nelle materie del diritto civile.
+
+----
+
+Valori_title: I Miei Valori
+
+----
+
+Valori:
+
+-
+  icon: scale
+  title: Professionalita
+  description: Formazione continua e aggiornamento costante per garantire la massima qualita nell'assistenza legale.
+-
+  icon: eye
+  title: Trasparenza
+  description: Comunicazione chiara sui tempi, i costi e le prospettive di ogni pratica, senza sorprese.
+-
+  icon: ear
+  title: Ascolto
+  description: Ogni situazione e unica. Mi prendo il tempo necessario per comprendere a fondo le esigenze del cliente.
+-
+  icon: target
+  title: Concretezza
+  description: Soluzioni pratiche e misurate, calibrate sugli obiettivi reali del cliente e sulla sua situazione specifica.
+
+----
+
+Cta_title: Hai Bisogno di Assistenza Legale?
+
+----
+
+Cta_description: Prenota una consulenza per discutere la tua situazione con l'Avv. Zanin in modo riservato e senza impegno.
+
+----
+
+Cta_button_text: Contattaci
+
+----
+
+Cta_button_url: contatti
+
+----
+
+Meta_title:
+
+----
+
+Meta_description:
