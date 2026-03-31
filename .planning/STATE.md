@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: 01-05 Task 1 complete, awaiting human-verify checkpoint (Task 2)
-last_updated: "2026-03-30T14:17:01.661Z"
-last_activity: 2026-03-30
+stopped_at: 02-01 complete — homepage animations done
+last_updated: "2026-03-31T13:06:43.917Z"
+last_activity: 2026-03-31
 progress:
   total_phases: 4
   completed_phases: 1
-  total_plans: 5
-  completed_plans: 5
+  total_plans: 9
+  completed_plans: 6
   percent: 0
 ---
 
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-28)
 
 **Core value:** Un potenziale cliente che cerca un avvocato civilista a Este/Padova deve trovare il sito, capire immediatamente i servizi offerti e poter contattare lo studio con facilità.
-**Current focus:** Phase 01 — foundation
+**Current focus:** Phase 02 — core-pages
 
 ## Current Position
 
-Phase: 2
-Plan: Not started
+Phase: 02 (core-pages) — EXECUTING
+Plan: 2 of 4
 Status: Ready to execute
-Last activity: 2026-03-30
+Last activity: 2026-03-31
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -56,6 +56,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation P02 | 3min | 2 tasks | 12 files |
 | Phase 01-foundation P04 | 5min | 3 tasks | 6 files |
 | Phase 01-foundation P03 | 2min | 2 tasks | 6 files |
+| Phase 02-core-pages P01 | 10min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: Navy #1a2744 / gold #b8960c palette applied as CSS custom properties; hardcoded rgba shadows updated to match
 - [Phase 01-foundation]: 2-column mega-dropdown grid for 4 legal services; gold accent CTA hover; no Instagram per D-07
 - [Phase 01-foundation]: scroll.js and scroll-top.js copied verbatim from studioatheste; animations.js stripped to scaffold with splitWords + reduced-motion guard
+- [Phase 02-core-pages]: initCounters() defined once, called twice for glass-box and stats counters — avoids duplication
+- [Phase 02-core-pages]: overflow: hidden added to .about-split__media in CSS (not JS) to contain parallax scale bleed
+- [Phase 02-core-pages]: page-specific animation IIFE pattern established: assets/js/pages/{template}.js loaded conditionally by scripts.php
 
 ### Pending Todos
 
@@ -87,6 +91,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T09:33:57.822Z
-Stopped at: 01-05 Task 1 complete, awaiting human-verify checkpoint (Task 2)
+Last session: 2026-03-31T13:06:43.910Z
+Stopped at: 02-01 complete — homepage animations done
 Resume file: None

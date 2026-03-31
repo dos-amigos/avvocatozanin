@@ -17,12 +17,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Homepage
 
-- [ ] **HOME-01**: Hero section with professional video/image, headline SEO "Avvocato Civilista a Este", CTA
-- [ ] **HOME-02**: Intro section with parallax effect and studio presentation
-- [ ] **HOME-03**: Stats counter section (anni esperienza, cause gestite, clienti assistiti, aree di pratica)
-- [ ] **HOME-04**: Services overview grid (4 cards con icone per le aree di pratica)
-- [ ] **HOME-05**: CTA section with background parallax and call-to-action per consulenza
-- [ ] **HOME-06**: Full page animations (staggered reveals, word-by-word title, fade-up sections)
+- [x] **HOME-01**: Hero section with professional video/image, headline SEO "Avvocato Civilista a Este", CTA
+- [x] **HOME-02**: Intro section with parallax effect and studio presentation
+- [x] **HOME-03**: Stats counter section (anni esperienza, cause gestite, clienti assistiti, aree di pratica)
+- [x] **HOME-04**: Services overview grid (4 cards con icone per le aree di pratica)
+- [x] **HOME-05**: CTA section with background parallax and call-to-action per consulenza
+- [x] **HOME-06**: Full page animations (staggered reveals, word-by-word title, fade-up sections)
 
 ### Services
 
@@ -136,12 +136,12 @@ Deferred to future release. Tracked but not in current roadmap.
 | NAV-04 | Phase 1 | Complete |
 | NAV-05 | Phase 1 | Complete |
 | NAV-06 | Phase 1 | Complete |
-| HOME-01 | Phase 2 | Pending |
-| HOME-02 | Phase 2 | Pending |
-| HOME-03 | Phase 2 | Pending |
-| HOME-04 | Phase 2 | Pending |
-| HOME-05 | Phase 2 | Pending |
-| HOME-06 | Phase 2 | Pending |
+| HOME-01 | Phase 2 | Complete |
+| HOME-02 | Phase 2 | Complete |
+| HOME-03 | Phase 2 | Complete |
+| HOME-04 | Phase 2 | Complete |
+| HOME-05 | Phase 2 | Complete |
+| HOME-06 | Phase 2 | Complete |
 | SERV-01 | Phase 2 | Pending |
 | SERV-02 | Phase 2 | Pending |
 | SERV-03 | Phase 2 | Pending |
