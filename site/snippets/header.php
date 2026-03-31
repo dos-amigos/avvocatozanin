@@ -52,7 +52,6 @@
           </div>
         </li>
         <li><a href="<?= url('come-lavoro') ?>"<?php e($uri === 'come-lavoro', ' class="active"') ?>>Come Lavoro</a></li>
-        <li><a href="<?= url('contatti') ?>"<?php e($uri === 'contatti', ' class="active"') ?>>Contatti</a></li>
       </ul>
     </nav>
 
@@ -60,7 +59,7 @@
       <a href="tel:+39<?= Str::replace($site->phone(), ['.', ' '], '') ?>" class="header__phone">
         <i data-lucide="phone"></i> <?= $site->phone() ?>
       </a>
-      <a href="<?= url('contatti') ?>" class="header__cta">Consulenza Gratuita</a>
+      <a href="<?= url('contatti') ?>" class="header__cta">Contattami</a>
     </div>
 
     <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
