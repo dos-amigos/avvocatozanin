@@ -1,0 +1,39 @@
+title: Servizi
+
+fields:
+  hero_title:
+    type: text
+    label: Titolo Hero
+  hero_subtitle:
+    type: textarea
+    label: Sottotitolo Hero
+    size: small
+  servizi_eyebrow:
+    type: text
+    label: Eyebrow Sezione Servizi
+  servizi_title:
+    type: text
+    label: Titolo Sezione Servizi
+  servizi_description:
+    type: textarea
+    label: Descrizione Sezione Servizi
+    size: small
+  cta_title:
+    type: text
+    label: Titolo CTA
+  cta_description:
+    type: textarea
+    label: Descrizione CTA
+    size: small
+  cta_button_text:
+    type: text
+    label: Testo Pulsante CTA
+  cta_button_url:
+    type: text
+    label: URL Pulsante CTA
+  meta_title:
+    type: text
+    label: Meta Title
+  meta_description:
+    type: textarea
+    label: Meta Description

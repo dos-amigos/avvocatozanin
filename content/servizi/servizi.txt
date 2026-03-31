@@ -1,0 +1,49 @@
+Title: Servizi Legali
+
+----
+
+Hero-title: I Nostri Servizi Legali
+
+----
+
+Hero-subtitle: Assistenza professionale in tutte le principali aree del diritto civile
+
+----
+
+Servizi-eyebrow: Aree di Pratica
+
+----
+
+Servizi-title: Competenze al Servizio dei Vostri Diritti
+
+----
+
+Servizi-description: Lo Studio Legale Zanin offre assistenza qualificata in quattro aree principali del diritto civile, con un approccio personalizzato per ogni cliente.
+
+----
+
+Cta-title: Hai Bisogno di Assistenza Legale?
+
+----
+
+Cta-description: Prenota una prima consulenza per valutare insieme il tuo caso.
+
+----
+
+Cta-button-text: Contattaci Ora
+
+----
+
+Cta-button-url: contatti
+
+----
+
+Meta-title:
+
+----
+
+Meta-description:
+
+----
+
+Uuid: servizi
