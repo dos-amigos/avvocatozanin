@@ -185,7 +185,7 @@
       stagger: 0.08,
       ease: 'power3.out',
       scrollTrigger: {
-        trigger: '.practices-split__grid',
+        trigger: '.practices-grid',
         start: 'top 80%',
         once: true
       }

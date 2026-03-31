@@ -11,7 +11,7 @@
   .header.scrolled {
     background: var(--white);
     box-shadow: 0 2px 20px rgba(0,0,0,.06);
-    height: 70px;
+    height: 85px;
   }
 
   .header__inner {

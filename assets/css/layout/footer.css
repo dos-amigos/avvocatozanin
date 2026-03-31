@@ -12,15 +12,12 @@
   @media (max-width: 575px) { .footer__grid { grid-template-columns: 1fr; } }
 
   .footer__logo {
-    text-decoration: none; display: flex; align-items: baseline; gap: .3em;
+    text-decoration: none; display: block;
     margin-bottom: 20px;
   }
-  .footer__logo strong {
-    font-family: var(--font-heading); font-size: 24px; font-weight: 600; color: var(--white);
-  }
-  .footer__logo span {
-    font-size: 9px; font-weight: 600; letter-spacing: .15em;
-    text-transform: uppercase; color: var(--secondary);
+  .footer__logo-img {
+    height: 50px; width: auto;
+    filter: brightness(0) invert(1);
   }
 
   .footer__col--brand p { font-size: 14px; line-height: 1.7; margin-bottom: 20px; }

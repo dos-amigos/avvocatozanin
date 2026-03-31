@@ -25,8 +25,8 @@
   --grey-600: #7a7a7a;
   --grey-800: #303030;
 
-  /* === Typography (Instrument Serif + Manrope) === */
-  --font-heading: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  /* === Typography (Playfair Display + Manrope) === */
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-body: 'Manrope', Helvetica, Arial, sans-serif;
   --body-size: 16px;
   --body-lh: 30px;
