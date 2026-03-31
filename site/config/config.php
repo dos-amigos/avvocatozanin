@@ -16,10 +16,13 @@ return [
         ],
     ],
 
-    // Page cache (disabled in dev — enable in production)
+    // Page cache — active for all pages except /contatti (form must render dynamically)
     'cache' => [
         'pages' => [
-            'active' => false,
+            'active' => true,
+            'ignore' => function ($page) {
+                return $page->id() === 'contatti';
+            },
         ]
     ],
 
