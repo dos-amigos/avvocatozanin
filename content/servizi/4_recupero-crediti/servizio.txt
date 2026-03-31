@@ -1,0 +1,131 @@
+Title: Recupero Crediti
+
+----
+
+Hero-title: Recupero Crediti
+
+----
+
+Hero-subtitle: Assistenza legale per il recupero di crediti insoluti tramite decreto ingiuntivo, esecuzione forzata e procedure stragiudiziali
+
+----
+
+Hero-image-url: https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1920&q=80
+
+----
+
+Panoramica-body:
+
+Il recupero crediti e una delle problematiche piu diffuse per imprese e professionisti: fatture non pagate, prestazioni non risarcite, contratti inadempiuti. Lo Studio Legale Zanin offre assistenza completa nel recupero dei crediti insoluti, dalla fase stragiudiziale all esecuzione forzata, con un approccio orientato all efficacia e al contenimento dei costi del procedimento.
+
+L avvocato recupero crediti Este Sebastiano Zanin gestisce le pratiche di recupero sia per creditori privati che per imprese, dalle piccole somme fino ai crediti di importo rilevante. La conoscenza del Tribunale di Este e del Giudice di Pace competente per territorio permette di selezionare lo strumento processuale piu adatto al singolo caso: procedimento sommario di cognizione, decreto ingiuntivo ordinario o decreto ingiuntivo provvisoriamente esecutivo.
+
+Il recupero crediti stragiudiziale Padova ed Este e sempre il primo passo consigliato: l invio di una diffida legale formale produce spesso il pagamento senza necessita di ricorrere al giudice, riducendo i costi e i tempi per entrambe le parti. Quando la trattativa stragiudiziale fallisce, il decreto ingiuntivo rappresenta lo strumento processuale per eccellenza: un rito sommario che consente di ottenere un titolo esecutivo in tempi relativamente brevi sulla base della documentazione del credito.
+
+L esecuzione forzata interviene quando il debitore non adempie spontaneamente al pagamento: il pignoramento mobiliare, immobiliare o presso terzi (conti correnti, stipendi, crediti del debitore verso terzi) consente il recupero coattivo delle somme. Il nostro studio assiste i creditori in tutte le fasi del procedimento esecutivo e gestisce anche la difesa dei debitori che ricevano un decreto ingiuntivo ingiusto.
+
+----
+
+Includes:
+
+-
+  icon: file-text
+  title: Recupero Stragiudiziale
+  description: Invio di diffide formali e gestione della trattativa per il pagamento volontario del debito, riducendo tempi e costi rispetto alla via giudiziale.
+-
+  icon: gavel
+  title: Decreto Ingiuntivo
+  description: Ottenimento del decreto ingiuntivo per il pagamento di somme di denaro sulla base di prove documentali del credito (fatture, contratti, assegni, scritture private).
+-
+  icon: lock
+  title: Esecuzione Forzata
+  description: Procedimenti di pignoramento mobiliare, immobiliare o presso terzi per il recupero coattivo delle somme dovute in caso di mancato pagamento.
+-
+  icon: scale
+  title: Opposizione a Decreto Ingiuntivo
+  description: Difesa del debitore che riceva un decreto ingiuntivo infondato, contestazione della fondatezza del credito e delle condizioni di pagamento richieste.
+-
+  icon: handshake
+  title: Piani di Rientro
+  description: Negoziazione di accordi transattivi e piani di rientro rateale che tutelino gli interessi del creditore garantendo il recupero progressivo del credito.
+
+----
+
+Process-steps:
+
+-
+  step: "01"
+  title: Analisi del Credito
+  description: Verifichiamo la documentazione a supporto del credito (contratti, fatture, corrispondenza) e valutiamo la solvibilita e la situazione patrimoniale del debitore.
+-
+  step: "02"
+  title: Fase Stragiudiziale
+  description: Inviamo una diffida formale al debitore, fissando un termine per il pagamento e proponendo eventuali soluzioni transattive o piani di rientro.
+-
+  step: "03"
+  title: Azione Giudiziale
+  description: In assenza di pagamento, procediamo con la richiesta di decreto ingiuntivo al Tribunale di Este o al Giudice di Pace competente per territorio.
+-
+  step: "04"
+  title: Esecuzione
+  description: Ottenuto il titolo esecutivo, avviamo le procedure di pignoramento necessarie per il recupero effettivo delle somme dovute.
+
+----
+
+Faq:
+
+-
+  question: Quanto tempo serve per ottenere un decreto ingiuntivo?
+  answer: Il decreto ingiuntivo viene generalmente emesso dal giudice entro 30-40 giorni dal deposito del ricorso. Se richiesto con clausola di provvisoria esecutivita, il creditore puo procedere all esecuzione anche prima della scadenza del termine di opposizione di 40 giorni.
+-
+  question: Cosa si puo pignorare per recuperare un credito?
+  answer: Il pignoramento puo riguardare conti correnti e stipendi (pignoramento presso terzi), beni mobili come autovetture e attrezzature, e beni immobili (case, terreni, capannoni). La scelta dello strumento dipende dalla situazione patrimoniale del debitore.
+-
+  question: Conviene il recupero stragiudiziale o quello giudiziale?
+  answer: Il recupero stragiudiziale e sempre il primo approccio consigliato: e piu rapido, meno costoso e preserva i rapporti commerciali con il debitore. Si procede per via giudiziale solo quando la trattativa non produce risultati entro i termini fissati.
+-
+  question: Entro quando si prescrive un credito?
+  answer: I termini di prescrizione variano: 10 anni per i crediti ordinari, 5 anni per le prestazioni periodiche (canoni, rate), 3 anni per i crediti professionali. E fondamentale interrompere la prescrizione con atti formali tempestivi per non perdere il diritto.
+-
+  question: Il debitore puo opporsi al decreto ingiuntivo?
+  answer: Si, il debitore ha 40 giorni dalla notifica per proporre opposizione al decreto ingiuntivo. In tal caso si apre un giudizio ordinario in cui il creditore deve dimostrare la fondatezza del proprio credito con la documentazione prodotta.
+
+----
+
+Icon: file-text
+
+----
+
+Card-title: Recupero Crediti
+
+----
+
+Card-description: Decreti ingiuntivi, esecuzioni forzate, recupero giudiziale e stragiudiziale.
+
+----
+
+Cta-title: Hai crediti da recuperare?
+
+----
+
+Cta-description: Contattaci per valutare la strategia di recupero piu efficace per il tuo caso.
+
+----
+
+Cta-button-text: Contattaci
+
+----
+
+Cta-button-url: contatti
+
+----
+
+Meta-title:
+
+----
+
+Meta-description:
+
+----
+
+Uuid: recupero-crediti

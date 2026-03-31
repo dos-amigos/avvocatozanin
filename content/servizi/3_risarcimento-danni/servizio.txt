@@ -1,0 +1,131 @@
+Title: Risarcimento Danni
+
+----
+
+Hero-title: Risarcimento Danni
+
+----
+
+Hero-subtitle: Tutela legale per il risarcimento dei danni da incidenti stradali, responsabilita civile e danni patrimoniali e non patrimoniali
+
+----
+
+Hero-image-url: https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80
+
+----
+
+Panoramica-body:
+
+Il risarcimento danni e una delle aree del diritto civile in cui la tempestivita e la qualita dell assistenza legale fanno la differenza. Un avvocato risarcimento danni Padova ed Este esperto sa come raccogliere le prove, quantificare correttamente il danno e condurre la trattativa con le compagnie assicurative per ottenere un indennizzo adeguato. Lo Studio Legale Zanin assiste le vittime di sinistri e i soggetti danneggiati dalla condotta di terzi in tutte le fasi del procedimento risarcitorio.
+
+I sinistri stradali rappresentano la casistica piu frequente in materia di risarcimento: incidenti tra veicoli, investimento di pedoni, tamponamenti. In questi casi e fondamentale agire con rapidita per conservare le prove, effettuare gli accertamenti medici necessari e formulare una richiesta risarcitoria completa. L incidente stradale risarcimento e una procedura che coinvolge l assicurazione del responsabile civile e richiede una conoscenza approfondita delle tabelle di liquidazione del danno biologico.
+
+La responsabilita civile si estende ben oltre la circolazione stradale: danni causati da professionisti negligenti, da prodotti difettosi, da immobili in cattivo stato di manutenzione, da attivita pericolose. Per ciascuna tipologia, la valutazione del danno deve essere condotta con rigore, distinguendo tra danno patrimoniale (perdita di reddito, spese mediche sostenute) e danno non patrimoniale (danno biologico, danno morale, danno esistenziale).
+
+Presso il Tribunale di Este e il Tribunale di Padova il nostro studio ha gestito numerosi procedimenti risarcitori, sviluppando una solida conoscenza dei criteri di liquidazione locali. La negoziazione assicurativa stragiudiziale e sempre il primo percorso perseguito per ridurre tempi e costi, ricorrendo al contenzioso giudiziale solo quando l offerta della compagnia non e satisfattiva.
+
+----
+
+Includes:
+
+-
+  icon: car
+  title: Incidenti Stradali
+  description: Assistenza completa per il risarcimento dei danni da sinistri stradali, dalla gestione della pratica assicurativa al contenzioso giudiziale presso il Tribunale di Este e Padova.
+-
+  icon: shield
+  title: Responsabilita Civile
+  description: Tutela in caso di danni causati da terzi, professionisti o enti pubblici, con valutazione della responsabilita e quantificazione del danno patrimoniale e non patrimoniale.
+-
+  icon: heart-pulse
+  title: Danno Biologico
+  description: Valutazione e quantificazione del danno biologico, morale ed esistenziale secondo le tabelle del Tribunale di Milano e le specificita del caso concreto.
+-
+  icon: briefcase
+  title: Responsabilita Professionale
+  description: Azioni risarcitorie per danni derivanti da errori medici, legali o di altri professionisti che abbiano causato un pregiudizio documentabile.
+-
+  icon: file-warning
+  title: Negoziazione Assicurativa
+  description: Trattativa diretta con le compagnie assicurative per ottenere un risarcimento equo in tempi ragionevoli, senza necessita di ricorrere al giudice.
+
+----
+
+Process-steps:
+
+-
+  step: "01"
+  title: Valutazione del Caso
+  description: Analizziamo la documentazione disponibile (referti medici, rapporto di polizia, preventivi di riparazione) per valutare la fondatezza e l entita della richiesta risarcitoria.
+-
+  step: "02"
+  title: Quantificazione del Danno
+  description: Determiniamo l entita del risarcimento spettante, considerando il danno patrimoniale, biologico, morale e tutte le spese sostenute e future.
+-
+  step: "03"
+  title: Richiesta Risarcitoria
+  description: Inoltriamo la richiesta di risarcimento alla controparte o alla compagnia assicurativa, avviando la fase di trattativa stragiudiziale.
+-
+  step: "04"
+  title: Azione Giudiziale
+  description: Se la trattativa stragiudiziale non produce risultati soddisfacenti, procediamo con il ricorso al Tribunale di Este o Padova per ottenere il risarcimento dovuto.
+
+----
+
+Faq:
+
+-
+  question: Entro quanto tempo si deve chiedere il risarcimento danni?
+  answer: Per i sinistri stradali il termine di prescrizione e di 2 anni dal fatto. Per la responsabilita civile generica il termine ordinario e di 5 anni. E fondamentale agire tempestivamente e interrompere la prescrizione con atti formali per non perdere il diritto al risarcimento.
+-
+  question: Come si calcola il risarcimento del danno biologico?
+  answer: Il danno biologico viene calcolato sulla base delle tabelle del Tribunale di Milano, tenendo conto della percentuale di invalidita permanente accertata dal medico legale, dell eta del danneggiato e del numero di giorni di inabilita temporanea assoluta e parziale.
+-
+  question: Cosa fare subito dopo un incidente stradale?
+  answer: E importante raccogliere le prove del sinistro (foto, dati dei testimoni, dati delle parti coinvolte), recarsi al pronto soccorso anche per lesioni apparentemente lievi, e conservare con cura tutta la documentazione medica e le ricevute delle spese sostenute.
+-
+  question: Si puo ottenere il risarcimento senza andare in causa?
+  answer: Si, nella maggior parte dei casi il risarcimento viene ottenuto in via stragiudiziale attraverso la trattativa con la compagnia assicurativa. Il contenzioso giudiziale interviene solo quando non si raggiunge un accordo adeguato rispetto ai danni effettivamente subiti.
+-
+  question: L avvocato per il risarcimento danni ha un costo fisso?
+  answer: I costi dell assistenza legale variano in base alla complessita del caso e all entita del danno. Offriamo una prima valutazione per illustrare le prospettive del caso e fornire un preventivo chiaro prima di iniziare.
+
+----
+
+Icon: shield
+
+----
+
+Card-title: Risarcimento Danni
+
+----
+
+Card-description: Incidenti stradali, responsabilita civile, danni patrimoniali e non patrimoniali.
+
+----
+
+Cta-title: Hai subito un danno?
+
+----
+
+Cta-description: Contattaci per una valutazione del tuo caso di risarcimento con un avvocato esperto.
+
+----
+
+Cta-button-text: Richiedi Valutazione
+
+----
+
+Cta-button-url: contatti
+
+----
+
+Meta-title:
+
+----
+
+Meta-description:
+
+----
+
+Uuid: risarcimento-danni
