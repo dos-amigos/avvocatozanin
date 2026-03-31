@@ -1,0 +1,66 @@
+Title: Come Lavoro
+
+----
+
+Hero_title: Come Lavoro
+
+----
+
+Hero_subtitle: Un approccio chiaro e strutturato per ogni questione legale
+
+----
+
+Hero_image_url: https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80
+
+----
+
+Intro_body: La mia attivita si basa su un metodo di lavoro strutturato e trasparente. Prima di intraprendere qualsiasi azione legale, analizzo con attenzione la situazione del cliente, valuto le opzioni disponibili e definisco insieme la strategia piu appropriata.
+
+Credo nella comunicazione costante con il cliente: ogni fase del procedimento viene spiegata in modo chiaro, con aggiornamenti puntuali sull'andamento della pratica. Il cliente non e mai lasciato solo ad affrontare le incertezze del percorso legale.
+
+L'obiettivo e sempre trovare la soluzione piu efficace e adeguata alla situazione concreta, privilegiando quando possibile la via extragiudiziale per ridurre tempi e costi, senza mai rinunciare alla tutela dei diritti del cliente quando necessario.
+
+----
+
+Process_steps:
+
+-
+  step: "01"
+  title: Consulenza Iniziale
+  description: Analizziamo insieme la vostra situazione in un colloquio riservato. Esamino la documentazione disponibile e valuto le opzioni legali percorribili, fornendo un quadro chiaro della situazione prima di qualsiasi impegno.
+-
+  step: "02"
+  title: Conferimento Mandato
+  description: Definiamo la strategia legale piu adeguata e sottoscriviamo il mandato professionale. Vengono concordati gli obiettivi, i tempi previsti e le condizioni economiche dell'incarico in modo trasparente.
+-
+  step: "03"
+  title: Gestione della Causa
+  description: Seguiamo ogni fase del procedimento — stragiudiziale o giudiziale — con aggiornamenti costanti. Ogni atto processuale, udienza e sviluppo della pratica viene comunicato tempestivamente al cliente.
+-
+  step: "04"
+  title: Raggiungimento del Risultato
+  description: Lavoriamo per ottenere la soluzione piu favorevole agli interessi del cliente, che si tratti di un accordo bonario, di una sentenza o di un provvedimento cautelare. La pratica viene chiusa con un resoconto completo.
+
+----
+
+Cta_title: Pronto a Iniziare?
+
+----
+
+Cta_description: Prenota una consulenza iniziale per discutere il tuo caso con l'Avv. Zanin in modo riservato e senza impegno.
+
+----
+
+Cta_button_text: Contattaci
+
+----
+
+Cta_button_url: contatti
+
+----
+
+Meta_title:
+
+----
+
+Meta_description:
