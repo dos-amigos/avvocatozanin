@@ -82,10 +82,10 @@ Faq:
   answer: Il pignoramento puo riguardare conti correnti e stipendi (pignoramento presso terzi), beni mobili come autovetture e attrezzature, e beni immobili (case, terreni, capannoni). La scelta dello strumento dipende dalla situazione patrimoniale del debitore.
 -
   question: Conviene il recupero stragiudiziale o quello giudiziale?
-  answer: Il recupero stragiudiziale e sempre il primo approccio consigliato: e piu rapido, meno costoso e preserva i rapporti commerciali con il debitore. Si procede per via giudiziale solo quando la trattativa non produce risultati entro i termini fissati.
+  answer: "Il recupero stragiudiziale e sempre il primo approccio consigliato: e piu rapido, meno costoso e preserva i rapporti commerciali con il debitore. Si procede per via giudiziale solo quando la trattativa non produce risultati entro i termini fissati."
 -
   question: Entro quando si prescrive un credito?
-  answer: I termini di prescrizione variano: 10 anni per i crediti ordinari, 5 anni per le prestazioni periodiche (canoni, rate), 3 anni per i crediti professionali. E fondamentale interrompere la prescrizione con atti formali tempestivi per non perdere il diritto.
+  answer: "I termini di prescrizione variano: 10 anni per i crediti ordinari, 5 anni per le prestazioni periodiche (canoni, rate), 3 anni per i crediti professionali. E fondamentale interrompere la prescrizione con atti formali tempestivi per non perdere il diritto."
 -
   question: Il debitore puo opporsi al decreto ingiuntivo?
   answer: Si, il debitore ha 40 giorni dalla notifica per proporre opposizione al decreto ingiuntivo. In tal caso si apre un giudizio ordinario in cui il creditore deve dimostrare la fondatezza del proprio credito con la documentazione prodotta.

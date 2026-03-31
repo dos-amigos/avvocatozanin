@@ -47,7 +47,7 @@ Includes:
 -
   icon: file-check
   title: Due Diligence Immobiliare
-  description: Verifica completa della situazione giuridica dell immobile prima dell acquisto: ipoteche, vincoli urbanistici, conformita catastale e regolarita degli impianti.
+  description: "Verifica completa della situazione giuridica dell immobile prima dell acquisto: ipoteche, vincoli urbanistici, conformita catastale e regolarita degli impianti."
 
 ----
 
