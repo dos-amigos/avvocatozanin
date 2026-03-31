@@ -16,6 +16,7 @@
   $pageJs = [
     'contatti' => ['assets/js/pages/contatti.js'],
     'home'     => ['assets/js/pages/home.js'],
+    'servizio' => ['assets/js/pages/servizio.js'],
   ];
   $template = $page->intendedTemplate()->name();
   if (isset($pageJs[$template])):
