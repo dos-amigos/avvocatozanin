@@ -28,10 +28,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **SERV-01**: Servizi listing page with grid of 4 service cards
 - [x] **SERV-02**: Servizio detail template with hero, sidebar navigator, rich content sections
-- [ ] **SERV-03**: Diritto di Famiglia page — contenuto SEO per divorzi, separazioni, affidamento, successioni
-- [ ] **SERV-04**: Diritto Immobiliare page — contenuto SEO per compravendite, locazioni, condominio, usucapione
-- [ ] **SERV-05**: Risarcimento Danni page — contenuto SEO per incidenti, responsabilità civile, danni
-- [ ] **SERV-06**: Recupero Crediti page — contenuto SEO per decreti ingiuntivi, esecuzioni, procedure
+- [x] **SERV-03**: Diritto di Famiglia page — contenuto SEO per divorzi, separazioni, affidamento, successioni
+- [x] **SERV-04**: Diritto Immobiliare page — contenuto SEO per compravendite, locazioni, condominio, usucapione
+- [x] **SERV-05**: Risarcimento Danni page — contenuto SEO per incidenti, responsabilità civile, danni
+- [x] **SERV-06**: Recupero Crediti page — contenuto SEO per decreti ingiuntivi, esecuzioni, procedure
 - [x] **SERV-07**: FAQ accordion section per ogni servizio (4-6 domande con FAQPage schema)
 - [x] **SERV-08**: Process steps section per ogni servizio (come si svolge il percorso legale)
 
@@ -144,10 +144,10 @@ Deferred to future release. Tracked but not in current roadmap.
 | HOME-06 | Phase 2 | Complete |
 | SERV-01 | Phase 2 | Complete |
 | SERV-02 | Phase 2 | Complete |
-| SERV-03 | Phase 2 | Pending |
-| SERV-04 | Phase 2 | Pending |
-| SERV-05 | Phase 2 | Pending |
-| SERV-06 | Phase 2 | Pending |
+| SERV-03 | Phase 2 | Complete |
+| SERV-04 | Phase 2 | Complete |
+| SERV-05 | Phase 2 | Complete |
+| SERV-06 | Phase 2 | Complete |
 | SERV-07 | Phase 2 | Complete |
 | SERV-08 | Phase 2 | Complete |
 | PERF-04 | Phase 2 | Complete |
