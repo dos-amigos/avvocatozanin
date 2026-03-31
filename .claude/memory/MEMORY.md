@@ -1,0 +1,10 @@
+- [User Profile](user_profile.md) — Italian dev, Kirby CMS expert, prefers fast execution
+- [Avvocato Zanin Project](project_avvocatozanin.md) — Civil lawyer site in Este (PD), SEO-focused, modern design
+- [Commit Often](feedback_commit_often.md) — Frequent descriptive commits for agent tracking
+- [Execution State](project_execution_state.md) — Phase 3 in progress, 03-01/02/03 built, visual checkpoint pending
+- [Worktree Issue](feedback_worktree.md) — Git worktree isolation fails on Windows, use sequential execution
+- [Design Differentiation](feedback_design_differentiation.md) — Zanin must NOT look like studioatheste, different layout/identity
+- [Execute Immediately](feedback_execute_immediately.md) — Never defer, never make user repeat, execute ALL requests immediately
+- [Left Align Content](feedback_left_align.md) — Text-align left always, blocks can be centered but text stays left
+- [Flex Width Fix](feedback_flex_width.md) — Container in flex parent needs width:100% or it centers wrongly
+- [Fix All Pages](feedback_fix_all_pages.md) — Apply CSS fixes to ALL pages at once, never one at a time

@@ -126,7 +126,20 @@ Sito web professionale per l'Avvocato Sebastiano Zanin, civilista con studio a E
 <!-- GSD:conventions-start source:CONVENTIONS.md -->
 ## Conventions
 
-Conventions not yet established. Will populate as patterns emerge during development.
+### REGOLA TASSATIVA: .claude/ va SEMPRE tracked in git
+La directory `.claude/` e tutti i file `.md` al suo interno (memory, settings, config) DEVONO essere committati e pushati nella repo. Si lavora da diversi PC e tutti gli agenti devono avere accesso ai file di memoria e configurazione. MAI aggiungere `.claude/` al `.gitignore`.
+
+### CSS: flex + container = width: 100%
+Ogni elemento con classe `.container` che è figlio diretto di un `display: flex` DEVE avere `width: 100%`. Senza, il container non si estende e il contenuto appare centrato invece che allineato.
+
+### CSS: testo sempre bandiera sinistra
+Il testo dei paragrafi è SEMPRE `text-align: left`. I blocchi possono essere centrati con `margin-inline: auto`, ma il testo interno resta a sinistra. Mai `text-align: center` su body text.
+
+### CSS: fix su TUTTE le pagine contemporaneamente
+Quando si corregge un pattern CSS condiviso (es. `.page-hero__content`), fare grep su TUTTI i file CSS e applicare la fix ovunque in un solo commit. Mai fixare una pagina alla volta.
+
+### Commit: frequenti e descrittivi
+Ogni modifica significativa va committata subito con messaggio dettagliato in italiano. Non accumulare modifiche.
 <!-- GSD:conventions-end -->
 
 <!-- GSD:architecture-start source:ARCHITECTURE.md -->

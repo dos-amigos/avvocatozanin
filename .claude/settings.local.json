@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill -f \"php -S localhost:8000\")",
+      "Bash(rm -rf site/cache/*)",
+      "Bash(php:*)"
+    ]
+  }
+}
