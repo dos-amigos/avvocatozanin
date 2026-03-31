@@ -30,6 +30,7 @@
   .page-hero__content {
     position: relative;
     z-index: 2;
+    width: 100%;
     padding-top: 140px;
     padding-bottom: 60px;
   }
