@@ -1,6 +1,10 @@
 title: Home
 
 fields:
+  hero_eyebrow:
+    type: text
+    label: Eyebrow Hero
+    help: "Testo sopra il titolo hero (es. Studio Legale Zanin)"
   hero_title:
     type: text
     label: Titolo Hero
