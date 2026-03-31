@@ -80,26 +80,6 @@
     </div>
   </section>
 
-  <!-- ===== CONTACT BAR — 3 cols icons ===== -->
-  <section class="contact-bar">
-    <div class="container">
-      <div class="contact-bar__grid">
-        <div class="contact-bar__item">
-          <i data-lucide="phone"></i>
-          <div><strong>Telefono</strong><a href="tel:+39<?= Str::replace($site->phone(), ['.', ' '], '') ?>"><?= $site->phone() ?></a></div>
-        </div>
-        <div class="contact-bar__item">
-          <i data-lucide="map-pin"></i>
-          <div><strong>Studio</strong><span><?= $site->address() ?>, <?= $site->city() ?></span></div>
-        </div>
-        <div class="contact-bar__item">
-          <i data-lucide="mail"></i>
-          <div><strong>Email</strong><a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ===== PRACTICE AREAS — dark bg, split: intro left | 2x2 grid right ===== -->
   <section class="section section--dark" id="servizi">
     <div class="container">
@@ -195,6 +175,26 @@
       <h2 class="text-white">Hai Bisogno di Assistenza Legale?</h2>
       <p>Prenota una prima consulenza gratuita per valutare insieme il tuo caso.</p>
       <a href="<?= url('contatti') ?>" class="btn btn--accent btn--lg">Contattaci Ora</a>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT BAR — above footer ===== -->
+  <section class="contact-bar">
+    <div class="container">
+      <div class="contact-bar__grid">
+        <div class="contact-bar__item">
+          <i data-lucide="phone"></i>
+          <div><strong>Telefono</strong><a href="tel:+39<?= Str::replace($site->phone(), ['.', ' '], '') ?>"><?= $site->phone() ?></a></div>
+        </div>
+        <div class="contact-bar__item">
+          <i data-lucide="map-pin"></i>
+          <div><strong>Studio</strong><span><?= $site->address() ?>, <?= $site->city() ?></span></div>
+        </div>
+        <div class="contact-bar__item">
+          <i data-lucide="mail"></i>
+          <div><strong>Email</strong><a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a></div>
+        </div>
+      </div>
     </div>
   </section>
 

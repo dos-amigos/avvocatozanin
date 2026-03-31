@@ -11,14 +11,39 @@
     <nav class="header__nav" id="desktop-nav">
       <ul>
         <li><a href="<?= url('chi-sono') ?>"<?php e($uri === 'chi-sono', ' class="active"') ?>>Chi Sono</a></li>
-        <li class="has-sub">
+        <li class="has-mega">
           <a href="<?= url('servizi') ?>"<?php e(Str::startsWith($uri, 'servizi'), ' class="active"') ?>>Servizi</a>
-          <ul class="submenu">
-            <li><a href="<?= url('servizi/diritto-di-famiglia') ?>">Diritto di Famiglia</a></li>
-            <li><a href="<?= url('servizi/diritto-immobiliare') ?>">Diritto Immobiliare</a></li>
-            <li><a href="<?= url('servizi/risarcimento-danni') ?>">Risarcimento Danni</a></li>
-            <li><a href="<?= url('servizi/recupero-crediti') ?>">Recupero Crediti</a></li>
-          </ul>
+          <div class="megamenu">
+            <div class="megamenu__grid">
+              <a href="<?= url('servizi/diritto-di-famiglia') ?>" class="megamenu__item">
+                <div class="megamenu__img">
+                  <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&h=200&fit=crop&q=80" alt="Diritto di Famiglia" loading="lazy">
+                </div>
+                <span class="megamenu__label">Diritto di Famiglia</span>
+              </a>
+              <a href="<?= url('servizi/diritto-immobiliare') ?>" class="megamenu__item">
+                <div class="megamenu__img">
+                  <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&h=200&fit=crop&q=80" alt="Diritto Immobiliare" loading="lazy">
+                </div>
+                <span class="megamenu__label">Diritto Immobiliare</span>
+              </a>
+              <a href="<?= url('servizi/risarcimento-danni') ?>" class="megamenu__item">
+                <div class="megamenu__img">
+                  <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=200&h=200&fit=crop&q=80" alt="Risarcimento Danni" loading="lazy">
+                </div>
+                <span class="megamenu__label">Risarcimento Danni</span>
+              </a>
+              <a href="<?= url('servizi/recupero-crediti') ?>" class="megamenu__item">
+                <div class="megamenu__img">
+                  <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=200&h=200&fit=crop&q=80" alt="Recupero Crediti" loading="lazy">
+                </div>
+                <span class="megamenu__label">Recupero Crediti</span>
+              </a>
+            </div>
+            <div class="megamenu__footer">
+              <a href="<?= url('servizi') ?>">Tutti i Servizi <i data-lucide="arrow-right"></i></a>
+            </div>
+          </div>
         </li>
         <li><a href="<?= url('come-lavoro') ?>"<?php e($uri === 'come-lavoro', ' class="active"') ?>>Come Lavoro</a></li>
         <li><a href="<?= url('contatti') ?>"<?php e($uri === 'contatti', ' class="active"') ?>>Contatti</a></li>

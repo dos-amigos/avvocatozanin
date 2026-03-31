@@ -1,207 +1,166 @@
 /**
- * Servizio Page — Structured Navigator
- * JS for service detail pages.
- * Features: scroll-spy sidebar, scroll-driven process timeline, FAQ accordion, section fade-in
+ * Servizio Page — Editorial Layout
+ * Accordion, sticky contact bar, GSAP scroll animations
  */
-(function() {
-  'use strict';
+;(function () {
+  'use strict'
 
-  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
-  // ========== A. SCROLL-SPY ==========
-  if (!reducedMotion) {
-    var sidebarLinks = document.querySelectorAll('.service-sidebar__link');
-    var sections = document.querySelectorAll('.service-section');
+  /* ========== FAQ ACCORDION ========== */
+  document.querySelectorAll('[data-accordion-item]').forEach(function (item) {
+    var btn = item.querySelector('.sv-accordion__btn')
+    var panel = item.querySelector('.sv-accordion__panel')
+    if (!btn || !panel) return
 
-    if (sidebarLinks.length && sections.length) {
-      sections.forEach(function(section) {
-        ScrollTrigger.create({
-          trigger: section,
-          start: 'top 40%',
-          end: 'bottom 40%',
-          onToggle: function(self) {
-            if (self.isActive) {
-              var id = section.getAttribute('id');
-              sidebarLinks.forEach(function(link) {
-                link.classList.remove('is-active');
-                if (link.getAttribute('href') === '#' + id) {
-                  link.classList.add('is-active');
-                }
-              });
-            }
-          }
-        });
-      });
-    }
-  }
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('is-open')
 
-  // ========== SIDEBAR LINK SMOOTH SCROLL (always runs) ==========
-  var sidebarLinksAll = document.querySelectorAll('.service-sidebar__link');
-  sidebarLinksAll.forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      var targetId = this.getAttribute('href').substring(1);
-      var target = document.getElementById(targetId);
-      if (target) {
-        var headerOffset = 80;
-        var elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-        var offsetPosition = elementPosition - headerOffset - 24;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: reducedMotion ? 'auto' : 'smooth'
-        });
-      }
-    });
-  });
-
-  // ========== B. PROCESS TIMELINE (scroll-driven) ==========
-  if (!reducedMotion) {
-    var timeline = document.querySelector('.process-timeline');
-
-    if (timeline) {
-      var steps = timeline.querySelectorAll('.process-timeline__step');
-      var progress = timeline.querySelector('.process-timeline__progress');
-      var track = timeline.querySelector('.process-timeline__track');
-
-      // Entrance animation: each step fades in as it scrolls into view
-      steps.forEach(function(step) {
-        gsap.to(step, {
-          opacity: 1,
-          y: 0,
-          duration: 0.7,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: step,
-            start: 'top 85%',
-            toggleActions: 'play none none none'
-          }
-        });
-
-        // Activate marker when step is in the center of viewport
-        ScrollTrigger.create({
-          trigger: step,
-          start: 'top 60%',
-          end: 'bottom 40%',
-          onToggle: function(self) {
-            if (self.isActive) {
-              step.classList.add('is-active');
-            } else {
-              step.classList.remove('is-active');
-            }
-          }
-        });
-      });
-
-      // Progress line fills as user scrolls through the timeline
-      if (progress && track) {
-        gsap.to(progress, {
-          height: '100%',
-          ease: 'none',
-          scrollTrigger: {
-            trigger: timeline,
-            start: 'top 60%',
-            end: 'bottom 50%',
-            scrub: 0.3
-          }
-        });
-      }
-    }
-  }
-
-  // ========== C. FAQ ACCORDION (always runs — functional, not decorative) ==========
-  var accordionGroups = document.querySelectorAll('[data-accordion]');
-
-  accordionGroups.forEach(function(group) {
-    var items = group.querySelectorAll('[data-accordion-item]');
-
-    items.forEach(function(item) {
-      var btn = item.querySelector('.service-accordion__btn');
-      var panel = item.querySelector('.service-accordion__panel');
-      var panelInner = item.querySelector('.service-accordion__panel-inner');
-
-      if (!btn || !panel || !panelInner) return;
-
-      btn.addEventListener('click', function() {
-        var isOpen = item.classList.contains('is-open');
-
-        // Close all items in same group
-        items.forEach(function(otherItem) {
-          if (otherItem !== item && otherItem.classList.contains('is-open')) {
-            var otherPanel = otherItem.querySelector('.service-accordion__panel');
-            var otherBtn = otherItem.querySelector('.service-accordion__btn');
-            otherItem.classList.remove('is-open');
-            otherBtn.setAttribute('aria-expanded', 'false');
-            otherPanel.setAttribute('aria-hidden', 'true');
-            if (reducedMotion) {
-              otherPanel.style.height = '0';
-            } else {
-              gsap.to(otherPanel, {
-                height: 0,
-                duration: 0.4,
-                ease: 'power2.inOut'
-              });
-            }
-          }
-        });
-
-        // Toggle current item
-        if (isOpen) {
-          item.classList.remove('is-open');
-          btn.setAttribute('aria-expanded', 'false');
-          panel.setAttribute('aria-hidden', 'true');
-          if (reducedMotion) {
-            panel.style.height = '0';
-          } else {
-            gsap.to(panel, {
-              height: 0,
-              duration: 0.4,
-              ease: 'power2.inOut',
-              onComplete: function() {
-                ScrollTrigger.refresh();
-              }
-            });
-          }
+      // Close all siblings
+      item.closest('.sv-accordion').querySelectorAll('[data-accordion-item]').forEach(function (sibling) {
+        if (sibling === item) return
+        sibling.classList.remove('is-open')
+        sibling.querySelector('.sv-accordion__btn').setAttribute('aria-expanded', 'false')
+        var sibPanel = sibling.querySelector('.sv-accordion__panel')
+        sibPanel.setAttribute('aria-hidden', 'true')
+        if (prefersReduced) {
+          sibPanel.style.height = '0'
+        } else if (window.gsap) {
+          gsap.to(sibPanel, { height: 0, duration: 0.35, ease: 'power2.inOut' })
         } else {
-          item.classList.add('is-open');
-          btn.setAttribute('aria-expanded', 'true');
-          panel.setAttribute('aria-hidden', 'false');
-          if (reducedMotion) {
-            panel.style.height = 'auto';
-          } else {
-            gsap.to(panel, {
-              height: panelInner.offsetHeight,
-              duration: 0.4,
-              ease: 'power2.inOut',
-              onComplete: function() {
-                ScrollTrigger.refresh();
-              }
-            });
-          }
+          sibPanel.style.height = '0'
         }
-      });
-    });
-  });
+      })
 
-  // ========== D. FADE-IN SECTIONS ==========
-  if (!reducedMotion) {
-    var fadeTargets = document.querySelectorAll('.service-section');
-    fadeTargets.forEach(function(el) {
-      gsap.fromTo(el,
-        { opacity: 0, y: 30 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.8,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: el,
-            start: 'top 80%',
-            toggleActions: 'play none none none'
-          }
+      // Toggle current
+      if (isOpen) {
+        item.classList.remove('is-open')
+        btn.setAttribute('aria-expanded', 'false')
+        panel.setAttribute('aria-hidden', 'true')
+        if (prefersReduced) {
+          panel.style.height = '0'
+        } else if (window.gsap) {
+          gsap.to(panel, { height: 0, duration: 0.35, ease: 'power2.inOut' })
+        } else {
+          panel.style.height = '0'
         }
-      );
-    });
+      } else {
+        item.classList.add('is-open')
+        btn.setAttribute('aria-expanded', 'true')
+        panel.setAttribute('aria-hidden', 'false')
+        var inner = panel.querySelector('.sv-accordion__panel-inner')
+        var h = inner.offsetHeight
+        if (prefersReduced) {
+          panel.style.height = h + 'px'
+        } else if (window.gsap) {
+          gsap.to(panel, { height: h, duration: 0.35, ease: 'power2.inOut' })
+        } else {
+          panel.style.height = h + 'px'
+        }
+      }
+    })
+  })
+
+  /* ========== STICKY CONTACT BAR ========== */
+  var stickyBar = document.getElementById('sv-sticky-bar')
+  if (stickyBar) {
+    var hero = document.querySelector('.sv-hero')
+    var heroHeight = hero ? hero.offsetHeight : 400
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > heroHeight) {
+        stickyBar.classList.add('is-visible')
+      } else {
+        stickyBar.classList.remove('is-visible')
+      }
+    }, { passive: true })
   }
 
-})();
+  /* ========== GSAP SCROLL ANIMATIONS ========== */
+  if (!prefersReduced && window.gsap && window.ScrollTrigger) {
+    gsap.registerPlugin(ScrollTrigger)
+
+    // Hero text entrance
+    var heroText = document.querySelector('.sv-hero__text-inner')
+    if (heroText) {
+      gsap.from(heroText.children, {
+        y: 30,
+        opacity: 0,
+        duration: 0.8,
+        stagger: 0.15,
+        ease: 'power2.out'
+      })
+    }
+
+    // Panoramica fade in
+    var editorial = document.querySelector('.sv-editorial__body')
+    if (editorial) {
+      gsap.from(editorial, {
+        scrollTrigger: { trigger: editorial, start: 'top 85%' },
+        y: 30,
+        opacity: 0,
+        duration: 0.8,
+        ease: 'power2.out'
+      })
+    }
+
+    // Cosa include rows stagger
+    var includeRows = document.querySelectorAll('.sv-includes__row')
+    if (includeRows.length) {
+      gsap.from(includeRows, {
+        scrollTrigger: { trigger: '.sv-includes', start: 'top 80%' },
+        y: 30,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.12,
+        ease: 'power2.out'
+      })
+    }
+
+    // Timeline steps stagger
+    var timelineSteps = document.querySelectorAll('.sv-timeline__step')
+    if (timelineSteps.length) {
+      gsap.from(timelineSteps, {
+        scrollTrigger: { trigger: '.sv-timeline', start: 'top 80%' },
+        y: 30,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.15,
+        ease: 'power2.out'
+      })
+    }
+
+    // Stats counters
+    document.querySelectorAll('.sv-stats__item strong[data-count]').forEach(function (el) {
+      var target = parseInt(el.getAttribute('data-count'), 10)
+      ScrollTrigger.create({
+        trigger: el,
+        start: 'top 90%',
+        once: true,
+        onEnter: function () {
+          gsap.to({ val: 0 }, {
+            val: target,
+            duration: 1.5,
+            ease: 'power2.out',
+            onUpdate: function () {
+              el.textContent = Math.round(this.targets()[0].val)
+            }
+          })
+        }
+      })
+    })
+
+    // FAQ items
+    var faqItems = document.querySelectorAll('.sv-accordion__item')
+    if (faqItems.length) {
+      gsap.from(faqItems, {
+        scrollTrigger: { trigger: '.sv-accordion', start: 'top 85%' },
+        y: 20,
+        opacity: 0,
+        duration: 0.5,
+        stagger: 0.08,
+        ease: 'power2.out'
+      })
+    }
+  }
+})()
