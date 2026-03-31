@@ -46,7 +46,7 @@
     <?php if ($page->process_steps()->isNotEmpty()): ?>
     <section class="section section--grey" id="processo">
       <div class="container">
-        <div class="sv-section-header">
+        <div class="cl-section-header">
           <p class="subtitle">Il Percorso Legale</p>
           <h2>Come Funziona</h2>
         </div>
