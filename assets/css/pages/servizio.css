@@ -23,7 +23,8 @@
     background: var(--bg-dark-3);
     display: flex;
     align-items: center;
-    padding: 120px 60px 60px;
+    /* Align left edge with .container content start */
+    padding: 120px 60px 60px max(60px, calc((100vw - var(--container)) / 2 + 24px));
   }
 
   @media (max-width: 991px) {

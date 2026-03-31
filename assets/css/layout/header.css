@@ -7,7 +7,7 @@
     height: 80px;
     transition: background var(--dur) var(--ease), box-shadow var(--dur) var(--ease), height var(--dur) var(--ease);
   }
-  .header.transparent { background: transparent; }
+  .header.transparent { background: linear-gradient(to bottom, rgba(0,0,0,.45) 0%, transparent 100%); }
   .header.scrolled {
     background: var(--white);
     box-shadow: 0 2px 20px rgba(0,0,0,.06);
@@ -23,7 +23,7 @@
     text-decoration: none; display: flex; align-items: center;
   }
   .header__logo-img {
-    height: 40px; width: auto;
+    height: 60px; width: auto;
     filter: brightness(0) invert(1);
     transition: filter var(--dur);
   }
