@@ -62,9 +62,7 @@
   /* ========== EDITORIAL CENTERED COLUMN ========== */
   .cl-editorial {
     max-width: 780px;
-    margin-inline: auto;
     padding-inline: 24px;
-    text-align: center;
   }
 
   .cl-editorial .subtitle {
@@ -91,7 +89,6 @@
   .cl-timeline {
     position: relative;
     max-width: 860px;
-    margin-inline: auto;
     padding-left: 80px;
   }
 
