@@ -92,7 +92,7 @@
   }
   @media (max-width: 991px) { .about-split { grid-template-columns: 1fr; gap: 40px; } }
 
-  .about-split__media { position: relative; }
+  .about-split__media { position: relative; overflow: hidden; border-radius: var(--radius); }
   .about-split__img {
     width: 100%; aspect-ratio: 4/5; object-fit: cover;
     border-radius: var(--radius);
