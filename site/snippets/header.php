@@ -5,7 +5,7 @@
 <header class="header transparent" id="header">
   <div class="container header__inner">
     <a href="<?= $site->url() ?>" class="header__logo">
-      <strong>Zanin</strong><span>Studio Legale</span>
+      <img src="<?= url('assets/img/logo-zanin.png') ?>" alt="Studio Legale Zanin" class="header__logo-img">
     </a>
 
     <nav class="header__nav" id="desktop-nav">

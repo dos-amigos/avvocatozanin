@@ -20,18 +20,14 @@
 
   /* ---- Logo ---- */
   .header__logo {
-    text-decoration: none; display: flex; align-items: baseline; gap: .35em;
+    text-decoration: none; display: flex; align-items: center;
   }
-  .header__logo strong {
-    font-family: var(--font-heading); font-size: 26px; font-weight: 600;
-    color: var(--white); transition: color var(--dur);
+  .header__logo-img {
+    height: 40px; width: auto;
+    filter: brightness(0) invert(1);
+    transition: filter var(--dur);
   }
-  .header__logo span {
-    font-family: var(--font-body); font-size: 10px; font-weight: 600;
-    letter-spacing: .15em; text-transform: uppercase;
-    color: var(--secondary); transition: color var(--dur);
-  }
-  .header.scrolled .header__logo strong { color: var(--heading-color); }
+  .header.scrolled .header__logo-img { filter: none; }
 
   /* ---- Desktop nav ---- */
   .header__nav { display: none; }

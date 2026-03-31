@@ -26,8 +26,25 @@
         </div>
       </div>
       <div class="sv-hero__image">
-        <?php $heroUrl = $page->hero_image_url()->isNotEmpty() ? $page->hero_image_url()->value() : 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80' ?>
-        <img src="<?= esc($heroUrl) ?>" alt="" width="960" height="800" loading="eager">
+        <?php
+        // Video backgrounds per service (Mixkit free, no attribution required)
+        $heroVideos = [
+          'diritto-di-famiglia' => 'https://assets.mixkit.co/videos/23740/23740-720.mp4',
+          'diritto-immobiliare' => 'https://assets.mixkit.co/videos/4170/4170-720.mp4',
+          'risarcimento-danni'  => 'https://assets.mixkit.co/videos/47602/47602-720.mp4',
+          'recupero-crediti'    => 'https://assets.mixkit.co/videos/24047/24047-720.mp4',
+        ];
+        $slug = $page->slug();
+        $videoUrl = $heroVideos[$slug] ?? null;
+        $fallbackImg = $page->hero_image_url()->isNotEmpty() ? $page->hero_image_url()->value() : 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80';
+        ?>
+        <?php if ($videoUrl): ?>
+        <video autoplay muted loop playsinline preload="metadata" poster="<?= esc($fallbackImg) ?>">
+          <source src="<?= esc($videoUrl) ?>" type="video/mp4">
+        </video>
+        <?php else: ?>
+        <img src="<?= esc($fallbackImg) ?>" alt="" width="960" height="800" loading="eager">
+        <?php endif ?>
       </div>
     </section>
 
