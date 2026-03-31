@@ -44,11 +44,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Contact
 
-- [ ] **CONT-01**: Contatti page con form (nome, email, telefono, oggetto, messaggio, consenso GDPR)
-- [ ] **CONT-02**: Protezione spam con honeypot
-- [ ] **CONT-03**: Google Maps embed per Via G.B. Brunelli 12, Este
-- [ ] **CONT-04**: Numero telefono clickabile nel header e nella pagina contatti
-- [ ] **CONT-05**: Indirizzo PEC visibile nella pagina contatti
+- [x] **CONT-01**: Contatti page con form (nome, email, telefono, oggetto, messaggio, consenso GDPR)
+- [x] **CONT-02**: Protezione spam con honeypot
+- [x] **CONT-03**: Google Maps embed per Via G.B. Brunelli 12, Este
+- [x] **CONT-04**: Numero telefono clickabile nel header e nella pagina contatti
+- [x] **CONT-05**: Indirizzo PEC visibile nella pagina contatti
 
 ### SEO & Schema
 
@@ -155,11 +155,11 @@ Deferred to future release. Tracked but not in current roadmap.
 | TRUST-02 | Phase 3 | Pending |
 | TRUST-03 | Phase 3 | Pending |
 | TRUST-04 | Phase 3 | Pending |
-| CONT-01 | Phase 3 | Pending |
-| CONT-02 | Phase 3 | Pending |
-| CONT-03 | Phase 3 | Pending |
-| CONT-04 | Phase 3 | Pending |
-| CONT-05 | Phase 3 | Pending |
+| CONT-01 | Phase 3 | Complete |
+| CONT-02 | Phase 3 | Complete |
+| CONT-03 | Phase 3 | Complete |
+| CONT-04 | Phase 3 | Complete |
+| CONT-05 | Phase 3 | Complete |
 | PERF-01 | Phase 3 | Pending |
 | PERF-02 | Phase 3 | Pending |
 | PERF-03 | Phase 3 | Pending |
