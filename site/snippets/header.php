@@ -14,7 +14,7 @@
         <li class="has-mega">
           <a href="<?= url('servizi') ?>"<?php e(Str::startsWith($uri, 'servizi'), ' class="active"') ?>>Servizi</a>
           <div class="megamenu">
-            <div class="container megamenu__inner">
+            <div class="container">
               <div class="megamenu__grid">
                 <a href="<?= url('servizi/diritto-di-famiglia') ?>" class="megamenu__item">
                   <div class="megamenu__icon"><i data-lucide="users"></i></div>
@@ -44,9 +44,6 @@
                     <span class="megamenu__desc">Decreti ingiuntivi, esecuzioni, procedure</span>
                   </div>
                 </a>
-              </div>
-              <div class="megamenu__footer">
-                <a href="<?= url('servizi') ?>">Tutti i Servizi <i data-lucide="arrow-right"></i></a>
               </div>
             </div>
           </div>
