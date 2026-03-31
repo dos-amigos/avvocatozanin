@@ -30,6 +30,7 @@
   .page-hero__content {
     position: relative;
     z-index: 2;
+    width: 100%;
     padding-top: 140px;
     padding-bottom: 60px;
   }
@@ -101,7 +102,6 @@
     flex-direction: column;
     gap: 1.5rem;
     max-width: 860px;
-    margin-inline: auto;
   }
 
   .cs-credentials__item {
@@ -149,11 +149,16 @@
   /* ========== VALUES GRID ========== */
   .cs-values__grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
 
   @media (max-width: 991px) {
+    .cs-values__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
     .cs-values__grid {
       grid-template-columns: repeat(2, 1fr);
     }
