@@ -3,9 +3,11 @@
 
 <main id="main-content">
 
-  <!-- ===== HERO — full viewport, bg image, content bottom-left, gradient edge ===== -->
+  <!-- ===== HERO — full viewport, bg video, content bottom-left, gradient edge ===== -->
   <section class="hero">
-    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80" alt="" class="hero__bg" loading="eager">
+    <video autoplay muted loop playsinline preload="metadata" class="hero__bg" poster="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80">
+      <source src="https://assets.mixkit.co/videos/15858/15858-720.mp4" type="video/mp4">
+    </video>
     <div class="hero__overlay"></div>
     <div class="hero__gradient"></div>
     <div class="container hero__body">
@@ -51,12 +53,14 @@
     </div>
   </section>
 
-  <!-- ===== ABOUT — split: image + glass stats | text ===== -->
+  <!-- ===== ABOUT — split: video + glass stats | text ===== -->
   <section class="section section--light">
     <div class="container">
       <div class="about-split">
         <div class="about-split__media">
-          <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?w=800&q=80" alt="Studio Legale" class="about-split__img" loading="lazy">
+          <video autoplay muted loop playsinline preload="metadata" class="about-split__img" poster="https://images.unsplash.com/photo-1521791055366-0d553872125f?w=800&q=80">
+            <source src="https://assets.mixkit.co/videos/16106/16106-720.mp4" type="video/mp4">
+          </video>
           <div class="glass-box">
             <div class="glass-box__stat">
               <strong data-count="15">0</strong><span>+</span>
@@ -80,17 +84,15 @@
     </div>
   </section>
 
-  <!-- ===== PRACTICE AREAS — dark bg, split: intro left | 2x2 grid right ===== -->
+  <!-- ===== PRACTICE AREAS — dark bg, centered intro + 4-col grid ===== -->
   <section class="section section--dark" id="servizi">
     <div class="container">
-      <div class="practices-split">
-        <div class="practices-split__intro">
-          <p class="subtitle subtitle--on-dark">Aree di Pratica</p>
-          <h2 class="text-white">Assistenza Legale Completa in Ambito Civile</h2>
-          <p class="text-white-50">Offriamo supporto professionale in tutte le principali aree del diritto civile, dalla famiglia al recupero crediti.</p>
-          <a href="<?= url('servizi') ?>" class="btn btn--accent">Tutti i Servizi</a>
-        </div>
-        <div class="practices-split__grid">
+      <div class="practices-header">
+        <p class="subtitle subtitle--on-dark">Aree di Pratica</p>
+        <h2 class="text-white">Assistenza Legale Completa in Ambito Civile</h2>
+        <p class="text-white-50">Offriamo supporto professionale in tutte le principali aree del diritto civile, dalla famiglia al recupero crediti.</p>
+      </div>
+      <div class="practices-grid">
           <a href="<?= url('servizi/diritto-di-famiglia') ?>" class="practice-card">
             <i data-lucide="users"></i>
             <h4>Diritto di Famiglia</h4>
@@ -111,14 +113,18 @@
             <h4>Recupero Crediti</h4>
             <p>Decreti ingiuntivi, esecuzioni forzate, recupero giudiziale e stragiudiziale.</p>
           </a>
-        </div>
+      </div>
+      <div class="practices-footer">
+        <a href="<?= url('servizi') ?>" class="btn btn--accent">Tutti i Servizi</a>
       </div>
     </div>
   </section>
 
-  <!-- ===== STATS COUNTERS ===== -->
+  <!-- ===== STATS COUNTERS — video bg ===== -->
   <section class="stats-section">
-    <img src="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?w=1920&q=80" alt="" class="stats-section__bg" loading="lazy">
+    <video autoplay muted loop playsinline preload="metadata" class="stats-section__bg" poster="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?w=1920&q=80">
+      <source src="https://assets.mixkit.co/videos/47601/47601-720.mp4" type="video/mp4">
+    </video>
     <div class="stats-section__overlay"></div>
     <div class="container stats-section__inner">
       <div class="stat">
@@ -167,9 +173,11 @@
     </div>
   </section>
 
-  <!-- ===== CTA ===== -->
+  <!-- ===== CTA — video bg ===== -->
   <section class="cta-section">
-    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1920&q=80" alt="" class="cta-section__bg" loading="lazy">
+    <video autoplay muted loop playsinline preload="metadata" class="cta-section__bg" poster="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1920&q=80">
+      <source src="https://assets.mixkit.co/videos/5537/5537-720.mp4" type="video/mp4">
+    </video>
     <div class="cta-section__overlay"></div>
     <div class="container cta-section__body">
       <h2 class="text-white">Hai Bisogno di Assistenza Legale?</h2>
