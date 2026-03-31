@@ -26,14 +26,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Services
 
-- [ ] **SERV-01**: Servizi listing page with grid of 4 service cards
-- [ ] **SERV-02**: Servizio detail template with hero, sidebar navigator, rich content sections
+- [x] **SERV-01**: Servizi listing page with grid of 4 service cards
+- [x] **SERV-02**: Servizio detail template with hero, sidebar navigator, rich content sections
 - [ ] **SERV-03**: Diritto di Famiglia page — contenuto SEO per divorzi, separazioni, affidamento, successioni
 - [ ] **SERV-04**: Diritto Immobiliare page — contenuto SEO per compravendite, locazioni, condominio, usucapione
 - [ ] **SERV-05**: Risarcimento Danni page — contenuto SEO per incidenti, responsabilità civile, danni
 - [ ] **SERV-06**: Recupero Crediti page — contenuto SEO per decreti ingiuntivi, esecuzioni, procedure
-- [ ] **SERV-07**: FAQ accordion section per ogni servizio (4-6 domande con FAQPage schema)
-- [ ] **SERV-08**: Process steps section per ogni servizio (come si svolge il percorso legale)
+- [x] **SERV-07**: FAQ accordion section per ogni servizio (4-6 domande con FAQPage schema)
+- [x] **SERV-08**: Process steps section per ogni servizio (come si svolge il percorso legale)
 
 ### Trust & About
 
@@ -74,7 +74,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **PERF-01**: Lazy loading su tutte le immagini
 - [ ] **PERF-02**: Thumbnail presets per ottimizzazione immagini (default, card, hero, thumb)
 - [ ] **PERF-03**: Page caching attivo (esclusa pagina contatti)
-- [ ] **PERF-04**: Immagini hero professionali da Unsplash/Pexels (temi: giustizia, studio legale, consulenza legale)
+- [x] **PERF-04**: Immagini hero professionali da Unsplash/Pexels (temi: giustizia, studio legale, consulenza legale)
 
 ### Navigation
 
@@ -142,15 +142,15 @@ Deferred to future release. Tracked but not in current roadmap.
 | HOME-04 | Phase 2 | Complete |
 | HOME-05 | Phase 2 | Complete |
 | HOME-06 | Phase 2 | Complete |
-| SERV-01 | Phase 2 | Pending |
-| SERV-02 | Phase 2 | Pending |
+| SERV-01 | Phase 2 | Complete |
+| SERV-02 | Phase 2 | Complete |
 | SERV-03 | Phase 2 | Pending |
 | SERV-04 | Phase 2 | Pending |
 | SERV-05 | Phase 2 | Pending |
 | SERV-06 | Phase 2 | Pending |
-| SERV-07 | Phase 2 | Pending |
-| SERV-08 | Phase 2 | Pending |
-| PERF-04 | Phase 2 | Pending |
+| SERV-07 | Phase 2 | Complete |
+| SERV-08 | Phase 2 | Complete |
+| PERF-04 | Phase 2 | Complete |
 | TRUST-01 | Phase 3 | Pending |
 | TRUST-02 | Phase 3 | Pending |
 | TRUST-03 | Phase 3 | Pending |
