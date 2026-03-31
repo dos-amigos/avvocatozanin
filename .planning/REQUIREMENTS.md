@@ -37,18 +37,18 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Trust & About
 
-- [x] **TRUST-01**: Chi Sono page con bio professionale, esperienza, valori, giurisdizione
-- [x] **TRUST-02**: Come Lavoro page con processo legale (consulenza → mandato → causa → risultato)
-- [x] **TRUST-03**: Iscrizione Ordine Avvocati di Padova visibile (footer + chi-sono)
-- [x] **TRUST-04**: Giurisdizione esplicita: "Opero presso il Tribunale di Este e Padova"
+- [ ] **TRUST-01**: Chi Sono page con bio professionale, esperienza, valori, giurisdizione
+- [ ] **TRUST-02**: Come Lavoro page con processo legale (consulenza → mandato → causa → risultato)
+- [ ] **TRUST-03**: Iscrizione Ordine Avvocati di Padova visibile (footer + chi-sono)
+- [ ] **TRUST-04**: Giurisdizione esplicita: "Opero presso il Tribunale di Este e Padova"
 
 ### Contact
 
-- [ ] **CONT-01**: Contatti page con form (nome, email, telefono, oggetto, messaggio, consenso GDPR)
-- [ ] **CONT-02**: Protezione spam con honeypot
-- [ ] **CONT-03**: Google Maps embed per Via G.B. Brunelli 12, Este
-- [ ] **CONT-04**: Numero telefono clickabile nel header e nella pagina contatti
-- [ ] **CONT-05**: Indirizzo PEC visibile nella pagina contatti
+- [x] **CONT-01**: Contatti page con form (nome, email, telefono, oggetto, messaggio, consenso GDPR)
+- [x] **CONT-02**: Protezione spam con honeypot
+- [x] **CONT-03**: Google Maps embed per Via G.B. Brunelli 12, Este
+- [x] **CONT-04**: Numero telefono clickabile nel header e nella pagina contatti
+- [x] **CONT-05**: Indirizzo PEC visibile nella pagina contatti
 
 ### SEO & Schema
 
@@ -151,15 +151,15 @@ Deferred to future release. Tracked but not in current roadmap.
 | SERV-07 | Phase 2 | Complete |
 | SERV-08 | Phase 2 | Complete |
 | PERF-04 | Phase 2 | Complete |
-| TRUST-01 | Phase 3 | Complete |
-| TRUST-02 | Phase 3 | Complete |
-| TRUST-03 | Phase 3 | Complete |
-| TRUST-04 | Phase 3 | Complete |
-| CONT-01 | Phase 3 | Pending |
-| CONT-02 | Phase 3 | Pending |
-| CONT-03 | Phase 3 | Pending |
-| CONT-04 | Phase 3 | Pending |
-| CONT-05 | Phase 3 | Pending |
+| TRUST-01 | Phase 3 | Pending |
+| TRUST-02 | Phase 3 | Pending |
+| TRUST-03 | Phase 3 | Pending |
+| TRUST-04 | Phase 3 | Pending |
+| CONT-01 | Phase 3 | Complete |
+| CONT-02 | Phase 3 | Complete |
+| CONT-03 | Phase 3 | Complete |
+| CONT-04 | Phase 3 | Complete |
+| CONT-05 | Phase 3 | Complete |
 | PERF-01 | Phase 3 | Pending |
 | PERF-02 | Phase 3 | Pending |
 | PERF-03 | Phase 3 | Pending |

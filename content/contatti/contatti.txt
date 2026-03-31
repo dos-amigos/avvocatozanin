@@ -1,0 +1,65 @@
+Title: Contatti
+
+----
+
+Hero_title: Contattaci
+
+----
+
+Hero_subtitle: Siamo a disposizione per una consulenza. Compila il modulo o chiamaci direttamente.
+
+----
+
+Hero_image_url: https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80
+
+----
+
+Info_title: I Nostri Recapiti
+
+----
+
+Form_title: Scrivici
+
+----
+
+Form_subtitle: Compila il modulo sottostante e ti ricontatteremo entro 24 ore lavorative.
+
+----
+
+Success_title: Messaggio Inviato!
+
+----
+
+Success_text: Grazie per averci contattato. Ti risponderemo il prima possibile.
+
+----
+
+Map_embed_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2813.!2d11.6569!3d45.2275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVia+G.B.+Brunelli+12%2C+35042+Este+PD!5e0!3m2!1sit!2sit!4v1
+
+----
+
+Orari_feriali: Lun - Ven: 9:00 - 13:00 / 15:00 - 19:00
+
+----
+
+Orari_sabato: Sabato: Su appuntamento
+
+----
+
+Cta_title: Preferisci Chiamare?
+
+----
+
+Cta_description: Siamo disponibili telefonicamente durante gli orari di studio.
+
+----
+
+Cta_button_text: Chiama Ora
+
+----
+
+Meta_title: Contatti — Studio Legale Zanin | Este (PD)
+
+----
+
+Meta_description: Contatta l'Avvocato Sebastiano Zanin a Este (PD). Modulo di contatto, telefono, PEC e indirizzo dello studio. Risposta entro 24 ore lavorative.

@@ -1,0 +1,79 @@
+title: Contatti
+
+tabs:
+  hero:
+    label: Hero
+    icon: image
+    fields:
+      hero_title:
+        label: Titolo Hero
+        type: text
+        required: true
+        placeholder: Contatti
+      hero_subtitle:
+        label: Sottotitolo Hero
+        type: textarea
+        size: small
+        help: "Testo visualizzato sotto il titolo nella hero section"
+      hero_image_url:
+        label: URL Immagine Hero
+        type: url
+        help: "URL Unsplash dell'immagine hero (es. https://images.unsplash.com/...?w=1920&q=80)"
+
+  form:
+    label: Modulo
+    icon: email
+    fields:
+      form_title:
+        label: Titolo Modulo
+        type: text
+        placeholder: Scrivici
+      form_subtitle:
+        label: Sottotitolo Modulo
+        type: textarea
+        size: small
+        help: "Testo introduttivo del modulo di contatto"
+      success_title:
+        label: Titolo Successo
+        type: text
+        placeholder: Messaggio Inviato!
+      success_text:
+        label: Testo Successo
+        type: textarea
+        size: small
+        help: "Messaggio mostrato dopo l'invio del modulo"
+
+  info:
+    label: Recapiti
+    icon: map
+    fields:
+      info_title:
+        label: Titolo Sezione Recapiti
+        type: text
+        placeholder: I Nostri Recapiti
+      map_embed_url:
+        label: URL Embed Google Maps
+        type: url
+        help: "URL embed di Google Maps per la sede dello studio (Via G.B. Brunelli 12, Este)"
+      orari_feriali:
+        label: Orari Feriali
+        type: text
+        placeholder: "Lun - Ven: 9:00 - 13:00 / 15:00 - 19:00"
+      orari_sabato:
+        label: Orari Sabato
+        type: text
+        placeholder: "Sabato: Su appuntamento"
+
+  seo:
+    label: SEO
+    icon: search
+    fields:
+      meta_title:
+        label: Meta Title
+        type: text
+        help: "Lascia vuoto per usare il titolo della pagina"
+      meta_description:
+        label: Meta Description
+        type: textarea
+        size: small
+        help: "Descrizione per i motori di ricerca (max 160 caratteri)"
