@@ -177,16 +177,17 @@
      ----------------------------------------------------------------------- */
   var practiceCards = gsap.utils.toArray('.practice-card');
   if (practiceCards.length) {
-    gsap.from(practiceCards, {
-      opacity: 0,
-      y: 40,
-      scale: 0.95,
+    gsap.set(practiceCards, { opacity: 0, y: 40, scale: 0.95 });
+    gsap.to(practiceCards, {
+      opacity: 1,
+      y: 0,
+      scale: 1,
       duration: 0.7,
       stagger: 0.08,
       ease: 'power3.out',
       scrollTrigger: {
         trigger: '.practices-grid',
-        start: 'top 80%',
+        start: 'top 85%',
         once: true
       }
     });

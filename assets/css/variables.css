@@ -25,8 +25,8 @@
   --grey-600: #7a7a7a;
   --grey-800: #303030;
 
-  /* === Typography (Playfair Display + Manrope) === */
-  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  /* === Typography (Cormorant Garamond + Manrope) === */
+  --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --font-body: 'Manrope', Helvetica, Arial, sans-serif;
   --body-size: 16px;
   --body-lh: 30px;
