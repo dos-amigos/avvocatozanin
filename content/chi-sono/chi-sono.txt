@@ -6,7 +6,7 @@ Hero_title: Avvocato Sebastiano Zanin
 
 ----
 
-Hero_subtitle: Civilista con studio a Este. Assistenza legale in diritto di famiglia, immobiliare, risarcimento danni e recupero crediti.
+Hero_subtitle: Oltre 10 anni di esperienza legale al servizio di privati e imprese a Este e Padova.
 
 ----
 
@@ -18,17 +18,17 @@ Portrait_url: https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800
 
 ----
 
-Bio_body: Sono Sebastiano Zanin, avvocato civilista con studio legale a Este (PD). Dopo la laurea in Giurisprudenza presso l'Universita degli Studi di Padova, ho conseguito l'abilitazione alla professione forense e mi sono iscritto all'Ordine degli Avvocati di Padova.
+Bio_body: Sono Sebastiano Zanin, avvocato civilista con studio legale a Este (PD). Laureato in Giurisprudenza presso l'Universita degli Studi di Padova nel 2009 con tesi in diritto penale, ho conseguito l'abilitazione all'esercizio della professione forense presso la Corte d'Appello di Venezia nel 2012. Sono iscritto all'Ordine degli Avvocati di Padova e alla Camera Penale di Padova "Francesco De Castello".
+
+Lo Studio Legale Zanin, con sede a Este, offre da oltre un decennio servizi di consulenza e assistenza legale, sia giudiziale che stragiudiziale, a privati e imprese. Lo studio si distingue per un approccio rigoroso e personalizzato, mettendo al centro le esigenze del cliente e garantendo competenza, riservatezza e dedizione in ogni fase del procedimento.
 
 Nel corso della mia attivita professionale ho maturato una solida esperienza nel diritto civile, con particolare attenzione al diritto di famiglia, al diritto immobiliare, al risarcimento del danno e al recupero crediti. Opero stabilmente presso il Tribunale di Este e il Tribunale di Padova, garantendo ai miei clienti una presenza costante nelle sedi giudiziarie del territorio.
 
-Il mio approccio si basa sulla comunicazione trasparente: ogni cliente viene informato in modo chiaro sull'evoluzione della propria situazione legale, sui tempi previsti e sulle opzioni disponibili. Credo che un rapporto di fiducia reciproca sia il fondamento di un'assistenza legale efficace.
-
-Opero sia in sede stragiudiziale, privilegiando la composizione bonaria delle controversie quando possibile, sia in sede giudiziale quando la tutela dei diritti del cliente lo richiede. La mia priorita e sempre la soluzione piu adeguata agli interessi concreti di chi si affida alla mia assistenza.
+Il mio approccio si basa sulla comunicazione trasparente: ogni cliente viene informato in modo chiaro sull'evoluzione della propria situazione legale, sui tempi previsti e sulle opzioni disponibili. Credo che un rapporto di fiducia reciproca sia il fondamento di un'assistenza legale efficace. Opero sia in sede stragiudiziale, privilegiando la composizione bonaria delle controversie quando possibile, sia in sede giudiziale quando la tutela dei diritti del cliente lo richiede.
 
 ----
 
-Ordine_numero: (da confermare)
+Ordine_numero: (da confermare - Ordine degli Avvocati di Padova)
 
 ----
 
@@ -77,8 +77,8 @@ Cta_button_url: contatti
 
 ----
 
-Meta_title:
+Meta_title: Avvocato Sebastiano Zanin | Civilista a Este (PD) | Chi Sono
 
 ----
 
-Meta_description:
+Meta_description: Avvocato Sebastiano Zanin, civilista con oltre 10 anni di esperienza a Este (PD). Laureato a Padova, iscritto all'Ordine degli Avvocati. Diritto di famiglia, immobiliare, risarcimento danni.

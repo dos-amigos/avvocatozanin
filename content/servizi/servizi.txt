@@ -6,7 +6,7 @@ Hero-title: I Nostri Servizi Legali
 
 ----
 
-Hero-subtitle: Assistenza professionale in tutte le principali aree del diritto civile
+Hero-subtitle: Consulenza e assistenza legale qualificata per privati e imprese a Este e Padova
 
 ----
 
@@ -18,7 +18,7 @@ Servizi-title: Competenze al Servizio dei Vostri Diritti
 
 ----
 
-Servizi-description: Lo Studio Legale Zanin offre assistenza qualificata in quattro aree principali del diritto civile, con un approccio personalizzato per ogni cliente.
+Servizi-description: Lo Studio Legale Zanin offre da oltre 10 anni assistenza qualificata in quattro aree principali del diritto civile, con un approccio personalizzato per ogni cliente e una presenza consolidata presso il Tribunale di Este e il Tribunale di Padova.
 
 ----
 
@@ -38,11 +38,11 @@ Cta-button-url: contatti
 
 ----
 
-Meta-title:
+Meta-title: Servizi Legali | Avvocato Civilista Este e Padova | Studio Legale Zanin
 
 ----
 
-Meta-description:
+Meta-description: Servizi legali dello Studio Legale Zanin a Este (PD): diritto di famiglia, immobiliare, risarcimento danni e recupero crediti. Consulenza personalizzata per privati e imprese.
 
 ----
 

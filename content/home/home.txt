@@ -6,7 +6,7 @@ Hero-title: Avvocato Civilista<br>a Este e Padova
 
 ----
 
-Hero-subtitle: Sebastiano Zanin offre assistenza legale in diritto di famiglia, immobiliare, risarcimento danni e recupero crediti.
+Hero-subtitle: Oltre 10 anni di esperienza legale al servizio di privati e imprese. Consulenza e assistenza in diritto di famiglia, immobiliare, risarcimento danni e recupero crediti.
 
 ----
 
@@ -14,11 +14,11 @@ Hero-eyebrow: Studio Legale Zanin
 
 ----
 
-Meta-title:
+Meta-title: Avvocato Este | Studio Legale Zanin | Civilista a Este e Padova
 
 ----
 
-Meta-description:
+Meta-description: Avvocato civilista a Este (PD). Lo Studio Legale Zanin offre assistenza in diritto di famiglia, immobiliare, risarcimento danni e recupero crediti. Prenota una consulenza.
 
 ----
 

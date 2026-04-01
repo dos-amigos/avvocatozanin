@@ -6,7 +6,7 @@ Site-description: Avvocato Sebastiano Zanin, civilista a Este (PD). Diritto di f
 
 ----
 
-Email: info@avvocatozanin.it
+Email: studio@avvocatozanin.it
 
 ----
 
@@ -26,11 +26,11 @@ City: 35042 Este (PD)
 
 ----
 
-Piva: (placeholder)
+Piva: (da confermare)
 
 ----
 
-Pec: pec@avvocatozanin.it
+Pec: (da confermare)
 
 ----
 

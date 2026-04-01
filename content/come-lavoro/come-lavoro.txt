@@ -59,8 +59,8 @@ Cta_button_url: contatti
 
 ----
 
-Meta_title:
+Meta_title: Come Lavoro | Metodo e Approccio | Studio Legale Zanin Este
 
 ----
 
-Meta_description:
+Meta_description: Il metodo di lavoro dell'Avv. Zanin: consulenza iniziale, strategia personalizzata, gestione trasparente della causa. Studio Legale a Este (PD).
