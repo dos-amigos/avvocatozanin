@@ -93,29 +93,55 @@
   }
   .cl-section-header h2 { margin-bottom: 0; }
 
+  /* ========== PROCESS — timeline + image ========== */
+  .cl-process {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  @media (max-width: 991px) {
+    .cl-process {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .cl-process__image img {
+    width: 100%;
+    height: 100%;
+    max-height: 680px;
+    object-fit: cover;
+    border-radius: var(--radius-md, 8px);
+    display: block;
+    position: sticky;
+    top: 100px;
+  }
+
+  @media (max-width: 991px) {
+    .cl-process__image {
+      display: none;
+    }
+  }
+
   /* ========== VERTICAL TIMELINE ========== */
   .cl-timeline {
     position: relative;
-    max-width: 860px;
-    margin-inline: auto;
-    padding-left: 80px;
   }
-
-  /* No ::before line on timeline — line is on each marker instead */
 
   .cl-timeline__step {
-    position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 48px 1fr;
     gap: 1.5rem;
     padding-bottom: 3rem;
-    align-items: flex-start;
+    position: relative;
   }
 
-  /* Vertical line between markers — on each step except last */
-  .cl-timeline__step:not(:last-child)::before {
+  /* Vertical line between markers */
+  .cl-timeline__step:not(:last-child)::after {
     content: "";
     position: absolute;
-    left: calc(-60px + 23px);
+    left: 23px;
     top: 48px;
     bottom: 0;
     width: 2px;
@@ -127,9 +153,6 @@
   }
 
   .cl-timeline__marker {
-    position: absolute;
-    left: -60px;
-    top: 0;
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -143,15 +166,15 @@
   }
 
   @media (max-width: 575px) {
-    .cl-timeline {
-      padding-left: 56px;
+    .cl-timeline__step {
+      grid-template-columns: 36px 1fr;
+      gap: 1rem;
     }
-    .cl-timeline__step:not(:last-child)::before {
-      left: calc(-44px + 17px);
+    .cl-timeline__step:not(:last-child)::after {
+      left: 17px;
       top: 36px;
     }
     .cl-timeline__marker {
-      left: -44px;
       width: 36px;
       height: 36px;
     }

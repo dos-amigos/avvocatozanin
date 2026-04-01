@@ -50,20 +50,36 @@
           <p class="subtitle">Il Percorso Legale</p>
           <h2>Come Funziona</h2>
         </div>
-        <div class="cl-timeline" role="list">
-          <?php foreach ($page->process_steps()->toStructure() as $step): ?>
-          <div class="cl-timeline__step" role="listitem">
-            <div class="cl-timeline__marker" aria-hidden="true">
-              <span class="cl-timeline__number"><?= $step->step() ?></span>
+        <div class="cl-process">
+          <div class="cl-timeline" role="list">
+            <?php foreach ($page->process_steps()->toStructure() as $step): ?>
+            <div class="cl-timeline__step" role="listitem">
+              <div class="cl-timeline__marker" aria-hidden="true">
+                <span class="cl-timeline__number"><?= $step->step() ?></span>
+              </div>
+              <div class="cl-timeline__content">
+                <h3><?= $step->title() ?></h3>
+                <?php if ($step->description()->isNotEmpty()): ?>
+                <p><?= $step->description() ?></p>
+                <?php endif ?>
+              </div>
             </div>
-            <div class="cl-timeline__content">
-              <h3><?= $step->title() ?></h3>
-              <?php if ($step->description()->isNotEmpty()): ?>
-              <p><?= $step->description() ?></p>
-              <?php endif ?>
-            </div>
+            <?php endforeach ?>
           </div>
-          <?php endforeach ?>
+          <?php
+          $processImg = $page->process_image_url()->isNotEmpty()
+            ? $page->process_image_url()->value()
+            : 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80';
+          ?>
+          <div class="cl-process__image">
+            <img
+              src="<?= esc($processImg) ?>"
+              alt="Studio legale — consulenza professionale"
+              width="500"
+              height="700"
+              loading="lazy"
+            >
+          </div>
         </div>
       </div>
     </section>

@@ -27,6 +27,10 @@ tabs:
         label: Introduzione Metodologia
         type: textarea
         help: Testo introduttivo sul metodo di lavoro (supporta Markdown)
+      process_image_url:
+        label: URL Immagine Processo
+        type: url
+        help: "Immagine verticale accanto alla timeline (es. https://images.unsplash.com/...?w=800&q=80)"
       process_steps:
         label: Fasi del Processo
         type: structure
