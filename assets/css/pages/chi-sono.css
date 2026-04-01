@@ -98,10 +98,15 @@
 
   /* ========== CREDENTIALS SECTION ========== */
   .cs-credentials {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    max-width: 860px;
+  }
+
+  @media (max-width: 767px) {
+    .cs-credentials {
+      grid-template-columns: 1fr;
+    }
   }
 
   .cs-credentials__item {
@@ -149,19 +154,8 @@
   /* ========== VALUES GRID ========== */
   .cs-values__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-  }
-
-  @media (max-width: 991px) {
-    .cs-values__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .cs-values__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
   }
 
   @media (max-width: 575px) {
